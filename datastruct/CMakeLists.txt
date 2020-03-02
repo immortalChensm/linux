@@ -1,4 +1,4 @@
 cmake_minimum_required(VERSION 2.8)
 
-SET(file link.c)
+SET(file link1.c)
 ADD_EXECUTABLE(line ${file})

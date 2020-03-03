@@ -23,6 +23,8 @@ int main()
 			len = read(fd,recv,sizeof(recv));
 			if(len){
 				printf("收到客户端的数据：%s\n",recv);
+			}else{
+				printf("如果不打印此数据则说明命名管道文件读取没有数据则会阻塞");
 			}
 
 			memset(recv,0,sizeof(recv));

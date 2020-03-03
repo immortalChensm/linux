@@ -122,32 +122,32 @@ line/fast:
 	$(MAKE) -f CMakeFiles\line.dir\build.make CMakeFiles/line.dir/build
 .PHONY : line/fast
 
-link3.obj: link3.c.obj
+stack.obj: stack.c.obj
 
-.PHONY : link3.obj
+.PHONY : stack.obj
 
 # target to build an object file
-link3.c.obj:
-	$(MAKE) -f CMakeFiles\line.dir\build.make CMakeFiles/line.dir/link3.c.obj
-.PHONY : link3.c.obj
+stack.c.obj:
+	$(MAKE) -f CMakeFiles\line.dir\build.make CMakeFiles/line.dir/stack.c.obj
+.PHONY : stack.c.obj
 
-link3.i: link3.c.i
+stack.i: stack.c.i
 
-.PHONY : link3.i
+.PHONY : stack.i
 
 # target to preprocess a source file
-link3.c.i:
-	$(MAKE) -f CMakeFiles\line.dir\build.make CMakeFiles/line.dir/link3.c.i
-.PHONY : link3.c.i
+stack.c.i:
+	$(MAKE) -f CMakeFiles\line.dir\build.make CMakeFiles/line.dir/stack.c.i
+.PHONY : stack.c.i
 
-link3.s: link3.c.s
+stack.s: stack.c.s
 
-.PHONY : link3.s
+.PHONY : stack.s
 
 # target to generate assembly for a file
-link3.c.s:
-	$(MAKE) -f CMakeFiles\line.dir\build.make CMakeFiles/line.dir/link3.c.s
-.PHONY : link3.c.s
+stack.c.s:
+	$(MAKE) -f CMakeFiles\line.dir\build.make CMakeFiles/line.dir/stack.c.s
+.PHONY : stack.c.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... line
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... link3.obj
-	@echo ... link3.i
-	@echo ... link3.s
+	@echo ... stack.obj
+	@echo ... stack.i
+	@echo ... stack.s
 .PHONY : help
 
 

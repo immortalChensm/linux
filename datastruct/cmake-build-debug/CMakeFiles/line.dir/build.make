@@ -56,27 +56,27 @@ include CMakeFiles/line.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/line.dir/flags.make
 
-CMakeFiles/line.dir/link3.c.obj: CMakeFiles/line.dir/flags.make
-CMakeFiles/line.dir/link3.c.obj: ../link3.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\c\linux\datastruct\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/line.dir/link3.c.obj"
-	C:\TDM-GCC-64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\line.dir\link3.c.obj   -c E:\c\linux\datastruct\link3.c
+CMakeFiles/line.dir/stack.c.obj: CMakeFiles/line.dir/flags.make
+CMakeFiles/line.dir/stack.c.obj: ../stack.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\c\linux\datastruct\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/line.dir/stack.c.obj"
+	C:\TDM-GCC-64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\line.dir\stack.c.obj   -c E:\c\linux\datastruct\stack.c
 
-CMakeFiles/line.dir/link3.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/line.dir/link3.c.i"
-	C:\TDM-GCC-64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\c\linux\datastruct\link3.c > CMakeFiles\line.dir\link3.c.i
+CMakeFiles/line.dir/stack.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/line.dir/stack.c.i"
+	C:\TDM-GCC-64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\c\linux\datastruct\stack.c > CMakeFiles\line.dir\stack.c.i
 
-CMakeFiles/line.dir/link3.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/line.dir/link3.c.s"
-	C:\TDM-GCC-64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\c\linux\datastruct\link3.c -o CMakeFiles\line.dir\link3.c.s
+CMakeFiles/line.dir/stack.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/line.dir/stack.c.s"
+	C:\TDM-GCC-64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\c\linux\datastruct\stack.c -o CMakeFiles\line.dir\stack.c.s
 
 # Object files for target line
 line_OBJECTS = \
-"CMakeFiles/line.dir/link3.c.obj"
+"CMakeFiles/line.dir/stack.c.obj"
 
 # External object files for target line
 line_EXTERNAL_OBJECTS =
 
-line.exe: CMakeFiles/line.dir/link3.c.obj
+line.exe: CMakeFiles/line.dir/stack.c.obj
 line.exe: CMakeFiles/line.dir/build.make
 line.exe: CMakeFiles/line.dir/linklibs.rsp
 line.exe: CMakeFiles/line.dir/objects1.rsp

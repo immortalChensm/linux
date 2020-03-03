@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-E:/c/linux/datastruct/link3.c
-stdio.h
--
+E:/c/linux/datastruct/stack.c
 stdlib.h
+-
+stdio.h
 -
 

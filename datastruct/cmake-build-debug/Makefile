@@ -122,32 +122,32 @@ line/fast:
 	$(MAKE) -f CMakeFiles\line.dir\build.make CMakeFiles/line.dir/build
 .PHONY : line/fast
 
-linkStack.obj: linkStack.c.obj
+queue2.obj: queue2.c.obj
 
-.PHONY : linkStack.obj
+.PHONY : queue2.obj
 
 # target to build an object file
-linkStack.c.obj:
-	$(MAKE) -f CMakeFiles\line.dir\build.make CMakeFiles/line.dir/linkStack.c.obj
-.PHONY : linkStack.c.obj
+queue2.c.obj:
+	$(MAKE) -f CMakeFiles\line.dir\build.make CMakeFiles/line.dir/queue2.c.obj
+.PHONY : queue2.c.obj
 
-linkStack.i: linkStack.c.i
+queue2.i: queue2.c.i
 
-.PHONY : linkStack.i
+.PHONY : queue2.i
 
 # target to preprocess a source file
-linkStack.c.i:
-	$(MAKE) -f CMakeFiles\line.dir\build.make CMakeFiles/line.dir/linkStack.c.i
-.PHONY : linkStack.c.i
+queue2.c.i:
+	$(MAKE) -f CMakeFiles\line.dir\build.make CMakeFiles/line.dir/queue2.c.i
+.PHONY : queue2.c.i
 
-linkStack.s: linkStack.c.s
+queue2.s: queue2.c.s
 
-.PHONY : linkStack.s
+.PHONY : queue2.s
 
 # target to generate assembly for a file
-linkStack.c.s:
-	$(MAKE) -f CMakeFiles\line.dir\build.make CMakeFiles/line.dir/linkStack.c.s
-.PHONY : linkStack.c.s
+queue2.c.s:
+	$(MAKE) -f CMakeFiles\line.dir\build.make CMakeFiles/line.dir/queue2.c.s
+.PHONY : queue2.c.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... line
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... linkStack.obj
-	@echo ... linkStack.i
-	@echo ... linkStack.s
+	@echo ... queue2.obj
+	@echo ... queue2.i
+	@echo ... queue2.s
 .PHONY : help
 
 

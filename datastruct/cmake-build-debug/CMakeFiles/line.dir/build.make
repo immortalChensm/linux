@@ -56,27 +56,27 @@ include CMakeFiles/line.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/line.dir/flags.make
 
-CMakeFiles/line.dir/linkStack.c.obj: CMakeFiles/line.dir/flags.make
-CMakeFiles/line.dir/linkStack.c.obj: ../linkStack.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\c\linux\datastruct\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/line.dir/linkStack.c.obj"
-	C:\TDM-GCC-64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\line.dir\linkStack.c.obj   -c E:\c\linux\datastruct\linkStack.c
+CMakeFiles/line.dir/queue2.c.obj: CMakeFiles/line.dir/flags.make
+CMakeFiles/line.dir/queue2.c.obj: ../queue2.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\c\linux\datastruct\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/line.dir/queue2.c.obj"
+	C:\TDM-GCC-64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\line.dir\queue2.c.obj   -c E:\c\linux\datastruct\queue2.c
 
-CMakeFiles/line.dir/linkStack.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/line.dir/linkStack.c.i"
-	C:\TDM-GCC-64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\c\linux\datastruct\linkStack.c > CMakeFiles\line.dir\linkStack.c.i
+CMakeFiles/line.dir/queue2.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/line.dir/queue2.c.i"
+	C:\TDM-GCC-64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\c\linux\datastruct\queue2.c > CMakeFiles\line.dir\queue2.c.i
 
-CMakeFiles/line.dir/linkStack.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/line.dir/linkStack.c.s"
-	C:\TDM-GCC-64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\c\linux\datastruct\linkStack.c -o CMakeFiles\line.dir\linkStack.c.s
+CMakeFiles/line.dir/queue2.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/line.dir/queue2.c.s"
+	C:\TDM-GCC-64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\c\linux\datastruct\queue2.c -o CMakeFiles\line.dir\queue2.c.s
 
 # Object files for target line
 line_OBJECTS = \
-"CMakeFiles/line.dir/linkStack.c.obj"
+"CMakeFiles/line.dir/queue2.c.obj"
 
 # External object files for target line
 line_EXTERNAL_OBJECTS =
 
-line.exe: CMakeFiles/line.dir/linkStack.c.obj
+line.exe: CMakeFiles/line.dir/queue2.c.obj
 line.exe: CMakeFiles/line.dir/build.make
 line.exe: CMakeFiles/line.dir/linklibs.rsp
 line.exe: CMakeFiles/line.dir/objects1.rsp

@@ -1,0 +1,103 @@
+17956 16:36:40.903622 execve("/bin/sh", ["sh", "-c", "ls -al /proc/17949/fd"], ["MYCAT_HOME=/home/mycat/Mycat", "XDG_SESSION_ID=24623", "HOSTNAME=iz2zegqaeolqftvinr8is3z", "TERM=xterm", "SHELL=/bin/bash", "HISTSIZE=1000", "SSH_CLIENT=111.121.92.142 11361 22", "OLDPWD=/home/c-project/c-review", "SSH_TTY=/dev/pts/1", "JRE_HOME=/home/mycat/jdk1.8.0_181/jre", "USER=root", "LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=01;05;37;41:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01"..., "MAIL=/var/spool/mail/root", "PATH=/home/mycat/jdk1.8.0_181/bin:/home/python3/bin:/home/mycat/jdk1.8.0_181/bin:/bin:/home/mycat/jdk1.8.0_181/jre/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/root/bin:/home/soft/python/bin/:/root/.config/composer/vendor/bin", "PWD=/home/c-project/c-review/socket", "JAVA_HOME=/home/mycat/jdk1.8.0_181", "LANG=en_US.UTF-8", "HISTCONTROL=ignoredups", "SHLVL=1", "HOME=/root", "LOGNAME=root", "CLASSPATH=.:/home/mycat/jdk1.8.0_181/lib:/home/mycat/jdk1.8.0_181/jre/lib:", "SSH_CONNECTION=111.121.92.142 11361 172.17.134.168 22", "LESSOPEN=||/usr/bin/lesspipe.sh %s", "XDG_RUNTIME_DIR=/run/user/0", "_=./recv"]) = 0 <0.000210>
+17956 16:36:40.904079 access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory) <0.000007>
+17956 16:36:40.904129 open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 5 <0.000009>
+17956 16:36:40.904213 open("/lib64/libtinfo.so.5", O_RDONLY|O_CLOEXEC) = 5 <0.000010>
+17956 16:36:40.904330 open("/lib64/libdl.so.2", O_RDONLY|O_CLOEXEC) = 5 <0.000009>
+17956 16:36:40.904439 open("/lib64/libc.so.6", O_RDONLY|O_CLOEXEC) = 5 <0.000008>
+17956 16:36:40.904865 open("/dev/tty", O_RDWR|O_NONBLOCK) = 5 <0.000013>
+17956 16:36:40.905006 open("/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 5 <0.000022>
+17956 16:36:40.905232 open("/proc/meminfo", O_RDONLY|O_CLOEXEC) = 5 <0.000012>
+17956 16:36:40.905543 stat("/home/c-project/c-review/socket", {st_dev=makedev(253, 1), st_ino=1209372, st_mode=S_IFDIR|0755, st_nlink=2, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=4096, st_atime=2020/03/05-16:18:02, st_mtime=2020/03/05-16:36:31, st_ctime=2020/03/05-16:36:31}) = 0 <0.000008>
+17956 16:36:40.905584 stat(".", {st_dev=makedev(253, 1), st_ino=1209372, st_mode=S_IFDIR|0755, st_nlink=2, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=4096, st_atime=2020/03/05-16:18:02, st_mtime=2020/03/05-16:36:31, st_ctime=2020/03/05-16:36:31}) = 0 <0.000007>
+17956 16:36:40.905642 open("/usr/lib64/gconv/gconv-modules.cache", O_RDONLY) = 5 <0.000010>
+17956 16:36:40.905747 stat(".", {st_dev=makedev(253, 1), st_ino=1209372, st_mode=S_IFDIR|0755, st_nlink=2, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=4096, st_atime=2020/03/05-16:18:02, st_mtime=2020/03/05-16:36:31, st_ctime=2020/03/05-16:36:31}) = 0 <0.000006>
+17956 16:36:40.905784 stat("/home/mycat/jdk1.8.0_181/bin/sh", 0x7fff3784cfb0) = -1 ENOENT (No such file or directory) <0.000009>
+17956 16:36:40.905812 stat("/home/python3/bin/sh", 0x7fff3784cfb0) = -1 ENOENT (No such file or directory) <0.000009>
+17956 16:36:40.905837 stat("/home/mycat/jdk1.8.0_181/bin/sh", 0x7fff3784cfb0) = -1 ENOENT (No such file or directory) <0.000006>
+17956 16:36:40.905860 stat("/bin/sh", {st_dev=makedev(253, 1), st_ino=1574174, st_mode=S_IFREG|0755, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=1880, st_size=960472, st_atime=2020/03/04-20:00:01, st_mtime=2016/12/07-07:19:33, st_ctime=2017/07/10-20:28:21}) = 0 <0.000009>
+17956 16:36:40.905903 stat("/bin/sh", {st_dev=makedev(253, 1), st_ino=1574174, st_mode=S_IFREG|0755, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=1880, st_size=960472, st_atime=2020/03/04-20:00:01, st_mtime=2016/12/07-07:19:33, st_ctime=2017/07/10-20:28:21}) = 0 <0.000007>
+17956 16:36:40.905977 access("/bin/sh", X_OK) = 0 <0.000007>
+17956 16:36:40.906000 stat("/bin/sh", {st_dev=makedev(253, 1), st_ino=1574174, st_mode=S_IFREG|0755, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=1880, st_size=960472, st_atime=2020/03/04-20:00:01, st_mtime=2016/12/07-07:19:33, st_ctime=2017/07/10-20:28:21}) = 0 <0.000006>
+17956 16:36:40.906095 access("/bin/sh", R_OK) = 0 <0.000007>
+17956 16:36:40.906118 stat("/bin/sh", {st_dev=makedev(253, 1), st_ino=1574174, st_mode=S_IFREG|0755, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=1880, st_size=960472, st_atime=2020/03/04-20:00:01, st_mtime=2016/12/07-07:19:33, st_ctime=2017/07/10-20:28:21}) = 0 <0.000007>
+17956 16:36:40.906149 stat("/bin/sh", {st_dev=makedev(253, 1), st_ino=1574174, st_mode=S_IFREG|0755, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=1880, st_size=960472, st_atime=2020/03/04-20:00:01, st_mtime=2016/12/07-07:19:33, st_ctime=2017/07/10-20:28:21}) = 0 <0.000006>
+17956 16:36:40.906230 access("/bin/sh", X_OK) = 0 <0.000007>
+17956 16:36:40.906252 stat("/bin/sh", {st_dev=makedev(253, 1), st_ino=1574174, st_mode=S_IFREG|0755, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=1880, st_size=960472, st_atime=2020/03/04-20:00:01, st_mtime=2016/12/07-07:19:33, st_ctime=2017/07/10-20:28:21}) = 0 <0.000007>
+17956 16:36:40.906326 access("/bin/sh", R_OK) = 0 <0.000006>
+17956 16:36:40.906781 stat(".", {st_dev=makedev(253, 1), st_ino=1209372, st_mode=S_IFDIR|0755, st_nlink=2, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=4096, st_atime=2020/03/05-16:18:02, st_mtime=2020/03/05-16:36:31, st_ctime=2020/03/05-16:36:31}) = 0 <0.000006>
+17956 16:36:40.906817 stat("/home/mycat/jdk1.8.0_181/bin/ls", 0x7fff3784cf50) = -1 ENOENT (No such file or directory) <0.000008>
+17956 16:36:40.906842 stat("/home/python3/bin/ls", 0x7fff3784cf50) = -1 ENOENT (No such file or directory) <0.000007>
+17956 16:36:40.906866 stat("/home/mycat/jdk1.8.0_181/bin/ls", 0x7fff3784cf50) = -1 ENOENT (No such file or directory) <0.000007>
+17956 16:36:40.906888 stat("/bin/ls", {st_dev=makedev(253, 1), st_ino=1575445, st_mode=S_IFREG|0755, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=232, st_size=117656, st_atime=2020/03/05-13:33:09, st_mtime=2016/11/06-04:46:15, st_ctime=2017/07/10-20:22:21}) = 0 <0.000007>
+17956 16:36:40.906921 stat("/bin/ls", {st_dev=makedev(253, 1), st_ino=1575445, st_mode=S_IFREG|0755, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=232, st_size=117656, st_atime=2020/03/05-13:33:09, st_mtime=2016/11/06-04:46:15, st_ctime=2017/07/10-20:22:21}) = 0 <0.000007>
+17956 16:36:40.906994 access("/bin/ls", X_OK) = 0 <0.000063>
+17956 16:36:40.907074 stat("/bin/ls", {st_dev=makedev(253, 1), st_ino=1575445, st_mode=S_IFREG|0755, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=232, st_size=117656, st_atime=2020/03/05-13:33:09, st_mtime=2016/11/06-04:46:15, st_ctime=2017/07/10-20:22:21}) = 0 <0.000007>
+17956 16:36:40.907149 access("/bin/ls", R_OK) = 0 <0.000007>
+17956 16:36:40.907170 stat("/bin/ls", {st_dev=makedev(253, 1), st_ino=1575445, st_mode=S_IFREG|0755, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=232, st_size=117656, st_atime=2020/03/05-13:33:09, st_mtime=2016/11/06-04:46:15, st_ctime=2017/07/10-20:22:21}) = 0 <0.000006>
+17956 16:36:40.907211 stat("/bin/ls", {st_dev=makedev(253, 1), st_ino=1575445, st_mode=S_IFREG|0755, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=232, st_size=117656, st_atime=2020/03/05-13:33:09, st_mtime=2016/11/06-04:46:15, st_ctime=2017/07/10-20:22:21}) = 0 <0.000007>
+17956 16:36:40.907289 access("/bin/ls", X_OK) = 0 <0.000007>
+17956 16:36:40.907311 stat("/bin/ls", {st_dev=makedev(253, 1), st_ino=1575445, st_mode=S_IFREG|0755, st_nlink=1, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=232, st_size=117656, st_atime=2020/03/05-13:33:09, st_mtime=2016/11/06-04:46:15, st_ctime=2017/07/10-20:22:21}) = 0 <0.000007>
+17956 16:36:40.907384 access("/bin/ls", R_OK) = 0 <0.000007>
+17956 16:36:40.907444 execve("/bin/ls", ["ls", "-al", "/proc/17949/fd"], ["MYCAT_HOME=/home/mycat/Mycat", "XDG_SESSION_ID=24623", "HOSTNAME=iz2zegqaeolqftvinr8is3z", "SHELL=/bin/bash", "TERM=xterm", "HISTSIZE=1000", "SSH_CLIENT=111.121.92.142 11361 22", "SSH_TTY=/dev/pts/1", "USER=root", "JRE_HOME=/home/mycat/jdk1.8.0_181/jre", "LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=01;05;37;41:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01"..., "PATH=/home/mycat/jdk1.8.0_181/bin:/home/python3/bin:/home/mycat/jdk1.8.0_181/bin:/bin:/home/mycat/jdk1.8.0_181/jre/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/root/bin:/home/soft/python/bin/:/root/.config/composer/vendor/bin", "MAIL=/var/spool/mail/root", "_=/bin/ls", "PWD=/home/c-project/c-review/socket", "JAVA_HOME=/home/mycat/jdk1.8.0_181", "LANG=en_US.UTF-8", "HISTCONTROL=ignoredups", "HOME=/root", "SHLVL=2", "LOGNAME=root", "SSH_CONNECTION=111.121.92.142 11361 172.17.134.168 22", "CLASSPATH=.:/home/mycat/jdk1.8.0_181/lib:/home/mycat/jdk1.8.0_181/jre/lib:", "LESSOPEN=||/usr/bin/lesspipe.sh %s", "XDG_RUNTIME_DIR=/run/user/0"]) = 0 <0.000249>
+17956 16:36:40.907810 access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory) <0.000007>
+17956 16:36:40.907843 open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 5 <0.000008>
+17956 16:36:40.907909 open("/lib64/libselinux.so.1", O_RDONLY|O_CLOEXEC) = 5 <0.000008>
+17956 16:36:40.908052 open("/lib64/libcap.so.2", O_RDONLY|O_CLOEXEC) = 5 <0.000010>
+17956 16:36:40.908163 open("/lib64/libacl.so.1", O_RDONLY|O_CLOEXEC) = 5 <0.000010>
+17956 16:36:40.908293 open("/lib64/libc.so.6", O_RDONLY|O_CLOEXEC) = 5 <0.000008>
+17956 16:36:40.908412 open("/lib64/libpcre.so.1", O_RDONLY|O_CLOEXEC) = 5 <0.000009>
+17956 16:36:40.908519 open("/lib64/libdl.so.2", O_RDONLY|O_CLOEXEC) = 5 <0.000009>
+17956 16:36:40.908638 open("/lib64/libattr.so.1", O_RDONLY|O_CLOEXEC) = 5 <0.000009>
+17956 16:36:40.908761 open("/lib64/libpthread.so.0", O_RDONLY|O_CLOEXEC) = 5 <0.000009>
+17956 16:36:40.909309 statfs("/sys/fs/selinux", 0x7fff0177a870) = -1 ENOENT (No such file or directory) <0.000013>
+17956 16:36:40.909348 statfs("/selinux", 0x7fff0177a870) = -1 ENOENT (No such file or directory) <0.000006>
+17956 16:36:40.909441 open("/proc/filesystems", O_RDONLY) = 5 <0.000011>
+17956 16:36:40.909526 stat("/etc/sysconfig/64bit_strstr_via_64bit_strstr_sse2_unaligned", 0x7fff0177a6e0) = -1 ENOENT (No such file or directory) <0.000007>
+17956 16:36:40.909596 access("/etc/selinux/config", F_OK) = 0 <0.000008>
+17956 16:36:40.909644 open("/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 5 <0.000009>
+17956 16:36:40.909793 open("/usr/share/locale/locale.alias", O_RDONLY|O_CLOEXEC) = 5 <0.000011>
+17956 16:36:40.909927 open("/usr/share/locale/en_US.UTF-8/LC_TIME/coreutils.mo", O_RDONLY) = -1 ENOENT (No such file or directory) <0.000009>
+17956 16:36:40.909957 open("/usr/share/locale/en_US.utf8/LC_TIME/coreutils.mo", O_RDONLY) = -1 ENOENT (No such file or directory) <0.000007>
+17956 16:36:40.909980 open("/usr/share/locale/en_US/LC_TIME/coreutils.mo", O_RDONLY) = -1 ENOENT (No such file or directory) <0.000009>
+17956 16:36:40.910004 open("/usr/share/locale/en.UTF-8/LC_TIME/coreutils.mo", O_RDONLY) = -1 ENOENT (No such file or directory) <0.000008>
+17956 16:36:40.910047 open("/usr/share/locale/en.utf8/LC_TIME/coreutils.mo", O_RDONLY) = -1 ENOENT (No such file or directory) <0.000007>
+17956 16:36:40.910072 open("/usr/share/locale/en/LC_TIME/coreutils.mo", O_RDONLY) = -1 ENOENT (No such file or directory) <0.000008>
+17956 16:36:40.910099 stat("/etc/sysconfig/64bit_strstr_via_64bit_strstr_sse2_unaligned", 0x7fff0177a340) = -1 ENOENT (No such file or directory) <0.000007>
+17956 16:36:40.910133 open("/usr/lib64/gconv/gconv-modules.cache", O_RDONLY) = 5 <0.000009>
+17956 16:36:40.910249 lstat("/proc/17949/fd", {st_dev=makedev(0, 3), st_ino=9001003, st_mode=S_IFDIR|0500, st_nlink=2, st_uid=0, st_gid=0, st_blksize=1024, st_blocks=0, st_size=0, st_atime=2020/03/05-16:35:54, st_mtime=2020/03/05-16:35:54, st_ctime=2020/03/05-16:35:54}) = 0 <0.000009>
+17956 16:36:40.910293 lgetxattr("/proc/17949/fd", "security.selinux", 0x137c100, 255) = -1 EOPNOTSUPP (Operation not supported) <0.000007>
+17956 16:36:40.910327 getxattr("/proc/17949/fd", "system.posix_acl_access", 0x0, 0) = -1 EOPNOTSUPP (Operation not supported) <0.000007>
+17956 16:36:40.910454 open("/etc/nsswitch.conf", O_RDONLY|O_CLOEXEC) = 5 <0.000008>
+17956 16:36:40.910573 open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 5 <0.000008>
+17956 16:36:40.910638 open("/lib64/libnss_files.so.2", O_RDONLY|O_CLOEXEC) = 5 <0.000021>
+17956 16:36:40.910821 open("/etc/passwd", O_RDONLY|O_CLOEXEC) = 5 <0.000009>
+17956 16:36:40.911000 open("/etc/group", O_RDONLY|O_CLOEXEC) = 5 <0.000008>
+17956 16:36:40.911112 openat(AT_FDCWD, "/proc/17949/fd", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 5 <0.000009>
+17956 16:36:40.911161 lstat("/proc/17949/fd/.", {st_dev=makedev(0, 3), st_ino=9001003, st_mode=S_IFDIR|0500, st_nlink=2, st_uid=0, st_gid=0, st_blksize=1024, st_blocks=0, st_size=0, st_atime=2020/03/05-16:35:54, st_mtime=2020/03/05-16:35:54, st_ctime=2020/03/05-16:35:54}) = 0 <0.000007>
+17956 16:36:40.911207 lstat("/proc/17949/fd/..", {st_dev=makedev(0, 3), st_ino=9000998, st_mode=S_IFDIR|0555, st_nlink=9, st_uid=0, st_gid=0, st_blksize=1024, st_blocks=0, st_size=0, st_atime=2020/03/05-16:35:54, st_mtime=2020/03/05-16:35:54, st_ctime=2020/03/05-16:35:54}) = 0 <0.000007>
+17956 16:36:40.911242 lstat("/proc/17949/fd/0", {st_dev=makedev(0, 3), st_ino=9001004, st_mode=S_IFLNK|0700, st_nlink=1, st_uid=0, st_gid=0, st_blksize=1024, st_blocks=0, st_size=64, st_atime=2020/03/05-16:36:02, st_mtime=2020/03/05-16:35:54, st_ctime=2020/03/05-16:35:54}) = 0 <0.000007>
+17956 16:36:40.911276 readlink("/proc/17949/fd/0", "/dev/pts/1", 65) = 10 <0.000009>
+17956 16:36:40.911303 lstat("/proc/17949/fd/1", {st_dev=makedev(0, 3), st_ino=9001005, st_mode=S_IFLNK|0700, st_nlink=1, st_uid=0, st_gid=0, st_blksize=1024, st_blocks=0, st_size=64, st_atime=2020/03/05-16:36:02, st_mtime=2020/03/05-16:35:54, st_ctime=2020/03/05-16:35:54}) = 0 <0.000007>
+17956 16:36:40.911335 readlink("/proc/17949/fd/1", "/dev/pts/1", 65) = 10 <0.000007>
+17956 16:36:40.911359 lstat("/proc/17949/fd/2", {st_dev=makedev(0, 3), st_ino=9001010, st_mode=S_IFLNK|0700, st_nlink=1, st_uid=0, st_gid=0, st_blksize=1024, st_blocks=0, st_size=64, st_atime=2020/03/05-16:36:02, st_mtime=2020/03/05-16:36:02, st_ctime=2020/03/05-16:36:02}) = 0 <0.000007>
+17956 16:36:40.911392 readlink("/proc/17949/fd/2", "/dev/pts/1", 65) = 10 <0.000008>
+17956 16:36:40.911416 lstat("/proc/17949/fd/3", {st_dev=makedev(0, 3), st_ino=9001011, st_mode=S_IFLNK|0700, st_nlink=1, st_uid=0, st_gid=0, st_blksize=1024, st_blocks=0, st_size=64, st_atime=2020/03/05-16:36:02, st_mtime=2020/03/05-16:36:02, st_ctime=2020/03/05-16:36:02}) = 0 <0.000007>
+17956 16:36:40.911453 readlink("/proc/17949/fd/3", "socket:[9001008]", 65) = 16 <0.000009>
+17956 16:36:40.911482 lstat("/proc/17949/fd/4", {st_dev=makedev(0, 3), st_ino=9001077, st_mode=S_IFLNK|0700, st_nlink=1, st_uid=0, st_gid=0, st_blksize=1024, st_blocks=0, st_size=64, st_atime=2020/03/05-16:36:40, st_mtime=2020/03/05-16:36:40, st_ctime=2020/03/05-16:36:40}) = 0 <0.000007>
+17956 16:36:40.911515 readlink("/proc/17949/fd/4", "socket:[9001047]", 65) = 16 <0.000008>
+17956 16:36:40.911578 open("/usr/share/locale/en_US.UTF-8/LC_MESSAGES/coreutils.mo", O_RDONLY) = -1 ENOENT (No such file or directory) <0.000008>
+17956 16:36:40.911603 open("/usr/share/locale/en_US.utf8/LC_MESSAGES/coreutils.mo", O_RDONLY) = -1 ENOENT (No such file or directory) <0.000007>
+17956 16:36:40.911626 open("/usr/share/locale/en_US/LC_MESSAGES/coreutils.mo", O_RDONLY) = -1 ENOENT (No such file or directory) <0.000008>
+17956 16:36:40.911660 open("/usr/share/locale/en.UTF-8/LC_MESSAGES/coreutils.mo", O_RDONLY) = -1 ENOENT (No such file or directory) <0.000007>
+17956 16:36:40.911683 open("/usr/share/locale/en.utf8/LC_MESSAGES/coreutils.mo", O_RDONLY) = -1 ENOENT (No such file or directory) <0.000007>
+17956 16:36:40.911705 open("/usr/share/locale/en/LC_MESSAGES/coreutils.mo", O_RDONLY) = -1 ENOENT (No such file or directory) <0.000009>
+17956 16:36:40.911867 open("/etc/localtime", O_RDONLY|O_CLOEXEC) = 5 <0.000008>
+17956 16:36:40.912085 stat("/etc/localtime", {st_dev=makedev(253, 1), st_ino=1573494, st_mode=S_IFREG|0644, st_nlink=5, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=388, st_atime=2020/03/04-20:20:01, st_mtime=2017/03/28-00:34:14, st_ctime=2017/07/10-20:28:21}) = 0 <0.000007>
+17956 16:36:40.912170 stat("/etc/localtime", {st_dev=makedev(253, 1), st_ino=1573494, st_mode=S_IFREG|0644, st_nlink=5, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=388, st_atime=2020/03/04-20:20:01, st_mtime=2017/03/28-00:34:14, st_ctime=2017/07/10-20:28:21}) = 0 <0.000007>
+17956 16:36:40.912262 stat("/etc/localtime", {st_dev=makedev(253, 1), st_ino=1573494, st_mode=S_IFREG|0644, st_nlink=5, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=388, st_atime=2020/03/04-20:20:01, st_mtime=2017/03/28-00:34:14, st_ctime=2017/07/10-20:28:21}) = 0 <0.000007>
+17956 16:36:40.912339 stat("/etc/localtime", {st_dev=makedev(253, 1), st_ino=1573494, st_mode=S_IFREG|0644, st_nlink=5, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=388, st_atime=2020/03/04-20:20:01, st_mtime=2017/03/28-00:34:14, st_ctime=2017/07/10-20:28:21}) = 0 <0.000007>
+17956 16:36:40.912413 stat("/etc/localtime", {st_dev=makedev(253, 1), st_ino=1573494, st_mode=S_IFREG|0644, st_nlink=5, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=388, st_atime=2020/03/04-20:20:01, st_mtime=2017/03/28-00:34:14, st_ctime=2017/07/10-20:28:21}) = 0 <0.000006>
+17956 16:36:40.912486 stat("/etc/localtime", {st_dev=makedev(253, 1), st_ino=1573494, st_mode=S_IFREG|0644, st_nlink=5, st_uid=0, st_gid=0, st_blksize=4096, st_blocks=8, st_size=388, st_atime=2020/03/04-20:20:01, st_mtime=2017/03/28-00:34:14, st_ctime=2017/07/10-20:28:21}) = 0 <0.000007>
+17956 16:36:40.912746 +++ exited with 0 +++
+17949 16:36:40.912814 --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=17956, si_status=0, si_utime=0, si_stime=0} ---
+17949 16:36:40.913338 +++ exited with 0 +++

@@ -66,7 +66,7 @@ int main()
 		copying("father");
 		sem_close(sem2);
 
-		wait(pid,NULL);//阻塞等子进程结束
+		wait();//阻塞等子进程结束
 		
 	}
 

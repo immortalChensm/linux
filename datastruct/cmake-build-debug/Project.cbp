@@ -82,7 +82,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="E:/c/linux/datastruct/queue2.c">
+		<Unit filename="E:/c/linux/datastruct/queueStack.c">
 			<Option target="line"/>
 		</Unit>
 		<Unit filename="E:/c/linux/datastruct/CMakeLists.txt">

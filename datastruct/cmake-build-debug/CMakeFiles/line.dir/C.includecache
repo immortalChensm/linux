@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-E:/c/linux/datastruct/queue2.c
-stdlib.h
--
+E:/c/linux/datastruct/queueStack.c
 stdio.h
+-
+stdlib.h
 -
 

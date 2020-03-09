@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "E:/c/linux/datastruct/queue2.c" "E:/c/linux/datastruct/cmake-build-debug/CMakeFiles/line.dir/queue2.c.obj"
+  "E:/c/linux/datastruct/bitree1.c" "E:/c/linux/datastruct/cmake-build-debug/CMakeFiles/line.dir/bitree1.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

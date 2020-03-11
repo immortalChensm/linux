@@ -82,7 +82,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="E:/c/linux/datastruct/bitree3.c">
+		<Unit filename="E:/c/linux/datastruct/tree1.c">
 			<Option target="line"/>
 		</Unit>
 		<Unit filename="E:/c/linux/datastruct/CMakeLists.txt">

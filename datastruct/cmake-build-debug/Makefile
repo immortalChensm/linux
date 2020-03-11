@@ -122,32 +122,32 @@ line/fast:
 	$(MAKE) -f CMakeFiles\line.dir\build.make CMakeFiles/line.dir/build
 .PHONY : line/fast
 
-bitree3.obj: bitree3.c.obj
+tree1.obj: tree1.c.obj
 
-.PHONY : bitree3.obj
+.PHONY : tree1.obj
 
 # target to build an object file
-bitree3.c.obj:
-	$(MAKE) -f CMakeFiles\line.dir\build.make CMakeFiles/line.dir/bitree3.c.obj
-.PHONY : bitree3.c.obj
+tree1.c.obj:
+	$(MAKE) -f CMakeFiles\line.dir\build.make CMakeFiles/line.dir/tree1.c.obj
+.PHONY : tree1.c.obj
 
-bitree3.i: bitree3.c.i
+tree1.i: tree1.c.i
 
-.PHONY : bitree3.i
+.PHONY : tree1.i
 
 # target to preprocess a source file
-bitree3.c.i:
-	$(MAKE) -f CMakeFiles\line.dir\build.make CMakeFiles/line.dir/bitree3.c.i
-.PHONY : bitree3.c.i
+tree1.c.i:
+	$(MAKE) -f CMakeFiles\line.dir\build.make CMakeFiles/line.dir/tree1.c.i
+.PHONY : tree1.c.i
 
-bitree3.s: bitree3.c.s
+tree1.s: tree1.c.s
 
-.PHONY : bitree3.s
+.PHONY : tree1.s
 
 # target to generate assembly for a file
-bitree3.c.s:
-	$(MAKE) -f CMakeFiles\line.dir\build.make CMakeFiles/line.dir/bitree3.c.s
-.PHONY : bitree3.c.s
+tree1.c.s:
+	$(MAKE) -f CMakeFiles\line.dir\build.make CMakeFiles/line.dir/tree1.c.s
+.PHONY : tree1.c.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... line
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... bitree3.obj
-	@echo ... bitree3.i
-	@echo ... bitree3.s
+	@echo ... tree1.obj
+	@echo ... tree1.i
+	@echo ... tree1.s
 .PHONY : help
 
 

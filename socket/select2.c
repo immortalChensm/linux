@@ -17,7 +17,7 @@ int main(int argc,char *argv[])
 
 	struct timeval timeout;
 
-	fd_set reads,cpy_reads;
+	fd_set reads,cpy_reads,writes,cpy_writes;
 
 	socklen_t adr_sz;
 
@@ -47,32 +47,38 @@ int main(int argc,char *argv[])
 	}
 
 	FD_ZERO(&reads);
+	FD_ZERO(&writes);
 	FD_SET(serv_sock,&reads);
+
 
 	fd_max = serv_sock;
 
 	while(1){
 		cpy_reads = reads;
-
+		cpy_writes = writes;
+		//printf("init=%#X\n",cpy_reads);
 		timeout.tv_sec = 5;
 		timeout.tv_usec = 5000;
 
-		if((fd_num = select(fd_max+1,&cpy_reads,0,0,&timeout))==-1){
+		if((fd_num = select(fd_max+1,&cpy_reads,&cpy_writes,0,&timeout))==-1){
 			perror("select error");break;
 		}
 
 		if(fd_max == 0){
 			continue;
 		}
+		//printf("select=%#X\n",cpy_reads);
 
 		for(i=0;i<fd_max+1;i++){
 			
+			printf("fd=%d,cpy_reads=%d,cpy_reads=%#x,reads=%d,reads=%#x,writes=%d,cpy_writes=%d\n",i,cpy_reads,cpy_reads,reads,reads,writes,cpy_writes);
 			if(FD_ISSET(i,&cpy_reads)){
-				
+						
 				if(i == serv_sock){
 					adr_sz = sizeof(clnt_adr);
 					clnt_sock = accept(serv_sock,(struct sockaddr*)&clnt_adr,&adr_sz);
 					FD_SET(clnt_sock,&reads);
+					FD_SET(clnt_sock,&writes);
 
 					if(fd_max<clnt_sock){
 						fd_max = clnt_sock;
@@ -86,12 +92,16 @@ int main(int argc,char *argv[])
 
 					if(str_len == 0){
 						FD_CLR(i,&reads);
+						FD_CLR(i,&writes);
 						close(i);
 						printf("closed client:%d\n",i);
 					}else{
 						write(i,buf,str_len);
 					}
 				}
+			}
+			if(FD_ISSET(i,&cpy_writes)){
+				send(i,"server",6,0);
 			}
 		}
 	}

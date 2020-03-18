@@ -122,32 +122,32 @@ line/fast:
 	$(MAKE) -f CMakeFiles\line.dir\build.make CMakeFiles/line.dir/build
 .PHONY : line/fast
 
-tree2.obj: tree2.c.obj
+graph.obj: graph.c.obj
 
-.PHONY : tree2.obj
+.PHONY : graph.obj
 
 # target to build an object file
-tree2.c.obj:
-	$(MAKE) -f CMakeFiles\line.dir\build.make CMakeFiles/line.dir/tree2.c.obj
-.PHONY : tree2.c.obj
+graph.c.obj:
+	$(MAKE) -f CMakeFiles\line.dir\build.make CMakeFiles/line.dir/graph.c.obj
+.PHONY : graph.c.obj
 
-tree2.i: tree2.c.i
+graph.i: graph.c.i
 
-.PHONY : tree2.i
+.PHONY : graph.i
 
 # target to preprocess a source file
-tree2.c.i:
-	$(MAKE) -f CMakeFiles\line.dir\build.make CMakeFiles/line.dir/tree2.c.i
-.PHONY : tree2.c.i
+graph.c.i:
+	$(MAKE) -f CMakeFiles\line.dir\build.make CMakeFiles/line.dir/graph.c.i
+.PHONY : graph.c.i
 
-tree2.s: tree2.c.s
+graph.s: graph.c.s
 
-.PHONY : tree2.s
+.PHONY : graph.s
 
 # target to generate assembly for a file
-tree2.c.s:
-	$(MAKE) -f CMakeFiles\line.dir\build.make CMakeFiles/line.dir/tree2.c.s
-.PHONY : tree2.c.s
+graph.c.s:
+	$(MAKE) -f CMakeFiles\line.dir\build.make CMakeFiles/line.dir/graph.c.s
+.PHONY : graph.c.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... line
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... tree2.obj
-	@echo ... tree2.i
-	@echo ... tree2.s
+	@echo ... graph.obj
+	@echo ... graph.i
+	@echo ... graph.s
 .PHONY : help
 
 

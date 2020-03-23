@@ -122,32 +122,32 @@ line/fast:
 	$(MAKE) -f CMakeFiles\line.dir\build.make CMakeFiles/line.dir/build
 .PHONY : line/fast
 
-graph.obj: graph.c.obj
+search_bin.obj: search_bin.c.obj
 
-.PHONY : graph.obj
+.PHONY : search_bin.obj
 
 # target to build an object file
-graph.c.obj:
-	$(MAKE) -f CMakeFiles\line.dir\build.make CMakeFiles/line.dir/graph.c.obj
-.PHONY : graph.c.obj
+search_bin.c.obj:
+	$(MAKE) -f CMakeFiles\line.dir\build.make CMakeFiles/line.dir/search_bin.c.obj
+.PHONY : search_bin.c.obj
 
-graph.i: graph.c.i
+search_bin.i: search_bin.c.i
 
-.PHONY : graph.i
+.PHONY : search_bin.i
 
 # target to preprocess a source file
-graph.c.i:
-	$(MAKE) -f CMakeFiles\line.dir\build.make CMakeFiles/line.dir/graph.c.i
-.PHONY : graph.c.i
+search_bin.c.i:
+	$(MAKE) -f CMakeFiles\line.dir\build.make CMakeFiles/line.dir/search_bin.c.i
+.PHONY : search_bin.c.i
 
-graph.s: graph.c.s
+search_bin.s: search_bin.c.s
 
-.PHONY : graph.s
+.PHONY : search_bin.s
 
 # target to generate assembly for a file
-graph.c.s:
-	$(MAKE) -f CMakeFiles\line.dir\build.make CMakeFiles/line.dir/graph.c.s
-.PHONY : graph.c.s
+search_bin.c.s:
+	$(MAKE) -f CMakeFiles\line.dir\build.make CMakeFiles/line.dir/search_bin.c.s
+.PHONY : search_bin.c.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... line
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... graph.obj
-	@echo ... graph.i
-	@echo ... graph.s
+	@echo ... search_bin.obj
+	@echo ... search_bin.i
+	@echo ... search_bin.s
 .PHONY : help
 
 

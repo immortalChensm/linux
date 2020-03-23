@@ -6,11 +6,9 @@
 
 #IncludeRegexTransform: 
 
-E:/c/linux/datastruct/graph.c
+E:/c/linux/datastruct/search_bin.c
 stdlib.h
 -
 stdio.h
--
-string.h
 -
 

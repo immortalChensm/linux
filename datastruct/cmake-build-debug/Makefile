@@ -122,32 +122,32 @@ line/fast:
 	$(MAKE) -f CMakeFiles\line.dir\build.make CMakeFiles/line.dir/build
 .PHONY : line/fast
 
-search_bin.obj: search_bin.c.obj
+search_block.obj: search_block.c.obj
 
-.PHONY : search_bin.obj
+.PHONY : search_block.obj
 
 # target to build an object file
-search_bin.c.obj:
-	$(MAKE) -f CMakeFiles\line.dir\build.make CMakeFiles/line.dir/search_bin.c.obj
-.PHONY : search_bin.c.obj
+search_block.c.obj:
+	$(MAKE) -f CMakeFiles\line.dir\build.make CMakeFiles/line.dir/search_block.c.obj
+.PHONY : search_block.c.obj
 
-search_bin.i: search_bin.c.i
+search_block.i: search_block.c.i
 
-.PHONY : search_bin.i
+.PHONY : search_block.i
 
 # target to preprocess a source file
-search_bin.c.i:
-	$(MAKE) -f CMakeFiles\line.dir\build.make CMakeFiles/line.dir/search_bin.c.i
-.PHONY : search_bin.c.i
+search_block.c.i:
+	$(MAKE) -f CMakeFiles\line.dir\build.make CMakeFiles/line.dir/search_block.c.i
+.PHONY : search_block.c.i
 
-search_bin.s: search_bin.c.s
+search_block.s: search_block.c.s
 
-.PHONY : search_bin.s
+.PHONY : search_block.s
 
 # target to generate assembly for a file
-search_bin.c.s:
-	$(MAKE) -f CMakeFiles\line.dir\build.make CMakeFiles/line.dir/search_bin.c.s
-.PHONY : search_bin.c.s
+search_block.c.s:
+	$(MAKE) -f CMakeFiles\line.dir\build.make CMakeFiles/line.dir/search_block.c.s
+.PHONY : search_block.c.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... line
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... search_bin.obj
-	@echo ... search_bin.i
-	@echo ... search_bin.s
+	@echo ... search_block.obj
+	@echo ... search_block.i
+	@echo ... search_block.s
 .PHONY : help
 
 

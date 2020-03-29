@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-E:/c/linux/datastruct/search_block.c
-stdio.h
--
+E:/c/linux/datastruct/search_bst.c
 stdlib.h
+-
+stdio.h
 -
 

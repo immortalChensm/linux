@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/line.dir/search_block.c.obj"
+  "CMakeFiles/line.dir/search_bst.c.obj"
   "line.pdb"
   "line.exe"
   "line.exe.manifest"

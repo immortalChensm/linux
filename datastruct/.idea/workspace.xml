@@ -35,18 +35,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tree1.c">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="920">
-              <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
-              <folding>
-                <element signature="e#53#72#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/queueStack.c">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1541">
@@ -121,7 +109,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/search_bin.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="529">
+            <state relative-caret-position="805">
               <caret line="35" column="22" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
               <folding>
                 <element signature="e#53#72#0" expanded="true" />
@@ -130,13 +118,25 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/search_block.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="309">
-              <caret line="65" column="21" lean-forward="true" selection-start-line="65" selection-start-column="21" selection-end-line="65" selection-end-column="21" />
+            <state relative-caret-position="851">
+              <caret line="37" column="18" selection-start-line="37" selection-start-column="18" selection-end-line="37" selection-end-column="18" />
               <folding>
                 <element signature="e#53#71#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/search_bst.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-133">
+              <caret line="64" column="16" lean-forward="true" selection-start-line="64" selection-start-column="16" selection-end-line="64" selection-end-column="16" />
+              <folding>
+                <element signature="e#53#72#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -145,8 +145,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
-              <caret line="3" column="28" lean-forward="true" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
+            <state relative-caret-position="46">
+              <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -179,14 +179,16 @@
         <option value="$PROJECT_DIR$/graph.c" />
         <option value="$PROJECT_DIR$/search1.c" />
         <option value="$PROJECT_DIR$/search_bin.c" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/search_block.c" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/search_bst.c" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
-    <option name="width" value="1887" />
+    <option name="y" value="-8" />
+    <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -264,30 +266,31 @@
       <workItem from="1584407263254" duration="1899000" />
       <workItem from="1584493727305" duration="6172000" />
       <workItem from="1584925888124" duration="5249000" />
-      <workItem from="1585012338181" duration="3255000" />
+      <workItem from="1585012338181" duration="3972000" />
+      <workItem from="1585098582990" duration="5702000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61639000" />
+    <option name="totallyTimeSpent" value="68058000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.123667374" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1380597" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.31127983" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.24186552" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
       <window_info anchor="bottom" id="Messages" order="8" weight="0.4175705" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.329718" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="11" />
       <window_info anchor="bottom" id="CMake" order="12" weight="0.329718" />
@@ -488,7 +491,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/search_bin.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
+        <state relative-caret-position="805">
           <caret line="35" column="22" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
           <folding>
             <element signature="e#53#72#0" expanded="true" />
@@ -496,19 +499,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+    <entry file="file://$PROJECT_DIR$/search_block.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="28" lean-forward="true" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
+        <state relative-caret-position="851">
+          <caret line="37" column="18" selection-start-line="37" selection-start-column="18" selection-end-line="37" selection-end-column="18" />
+          <folding>
+            <element signature="e#53#71#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/search_block.c">
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="65" column="21" lean-forward="true" selection-start-line="65" selection-start-column="21" selection-end-line="65" selection-end-column="21" />
+        <state relative-caret-position="46">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/search_bst.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-133">
+          <caret line="64" column="16" lean-forward="true" selection-start-line="64" selection-start-column="16" selection-end-line="64" selection-end-column="16" />
           <folding>
-            <element signature="e#53#71#0" expanded="true" />
+            <element signature="e#53#72#0" expanded="true" />
           </folding>
         </state>
       </provider>

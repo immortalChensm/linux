@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "E:/c/linux/test/pthread2.c" "E:/c/linux/test/cmake-build-debug/CMakeFiles/swoole_test.dir/pthread2.c.obj"
+  "E:/c/linux/test/cgi.c" "E:/c/linux/test/cmake-build-debug/CMakeFiles/swoole_test.dir/cgi.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

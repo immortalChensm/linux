@@ -3,5 +3,5 @@ project(swoole_test)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(swoole_test pthread2.c)
+add_executable(swoole_test cgi.c)
 #target_link_libraries(swoole_test pthread)

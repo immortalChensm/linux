@@ -122,32 +122,32 @@ swoole_test/fast:
 	$(MAKE) -f CMakeFiles\swoole_test.dir\build.make CMakeFiles/swoole_test.dir/build
 .PHONY : swoole_test/fast
 
-pthread2.obj: pthread2.c.obj
+cgi.obj: cgi.c.obj
 
-.PHONY : pthread2.obj
+.PHONY : cgi.obj
 
 # target to build an object file
-pthread2.c.obj:
-	$(MAKE) -f CMakeFiles\swoole_test.dir\build.make CMakeFiles/swoole_test.dir/pthread2.c.obj
-.PHONY : pthread2.c.obj
+cgi.c.obj:
+	$(MAKE) -f CMakeFiles\swoole_test.dir\build.make CMakeFiles/swoole_test.dir/cgi.c.obj
+.PHONY : cgi.c.obj
 
-pthread2.i: pthread2.c.i
+cgi.i: cgi.c.i
 
-.PHONY : pthread2.i
+.PHONY : cgi.i
 
 # target to preprocess a source file
-pthread2.c.i:
-	$(MAKE) -f CMakeFiles\swoole_test.dir\build.make CMakeFiles/swoole_test.dir/pthread2.c.i
-.PHONY : pthread2.c.i
+cgi.c.i:
+	$(MAKE) -f CMakeFiles\swoole_test.dir\build.make CMakeFiles/swoole_test.dir/cgi.c.i
+.PHONY : cgi.c.i
 
-pthread2.s: pthread2.c.s
+cgi.s: cgi.c.s
 
-.PHONY : pthread2.s
+.PHONY : cgi.s
 
 # target to generate assembly for a file
-pthread2.c.s:
-	$(MAKE) -f CMakeFiles\swoole_test.dir\build.make CMakeFiles/swoole_test.dir/pthread2.c.s
-.PHONY : pthread2.c.s
+cgi.c.s:
+	$(MAKE) -f CMakeFiles\swoole_test.dir\build.make CMakeFiles/swoole_test.dir/cgi.c.s
+.PHONY : cgi.c.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... swoole_test
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... pthread2.obj
-	@echo ... pthread2.i
-	@echo ... pthread2.s
+	@echo ... cgi.obj
+	@echo ... cgi.i
+	@echo ... cgi.s
 .PHONY : help
 
 

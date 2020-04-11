@@ -56,27 +56,27 @@ include CMakeFiles/swoole_test.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/swoole_test.dir/flags.make
 
-CMakeFiles/swoole_test.dir/pthread2.c.obj: CMakeFiles/swoole_test.dir/flags.make
-CMakeFiles/swoole_test.dir/pthread2.c.obj: ../pthread2.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\c\linux\test\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/swoole_test.dir/pthread2.c.obj"
-	C:\TDM-GCC-64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\swoole_test.dir\pthread2.c.obj   -c E:\c\linux\test\pthread2.c
+CMakeFiles/swoole_test.dir/cgi.c.obj: CMakeFiles/swoole_test.dir/flags.make
+CMakeFiles/swoole_test.dir/cgi.c.obj: ../cgi.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\c\linux\test\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/swoole_test.dir/cgi.c.obj"
+	C:\TDM-GCC-64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\swoole_test.dir\cgi.c.obj   -c E:\c\linux\test\cgi.c
 
-CMakeFiles/swoole_test.dir/pthread2.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/swoole_test.dir/pthread2.c.i"
-	C:\TDM-GCC-64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\c\linux\test\pthread2.c > CMakeFiles\swoole_test.dir\pthread2.c.i
+CMakeFiles/swoole_test.dir/cgi.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/swoole_test.dir/cgi.c.i"
+	C:\TDM-GCC-64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\c\linux\test\cgi.c > CMakeFiles\swoole_test.dir\cgi.c.i
 
-CMakeFiles/swoole_test.dir/pthread2.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/swoole_test.dir/pthread2.c.s"
-	C:\TDM-GCC-64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\c\linux\test\pthread2.c -o CMakeFiles\swoole_test.dir\pthread2.c.s
+CMakeFiles/swoole_test.dir/cgi.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/swoole_test.dir/cgi.c.s"
+	C:\TDM-GCC-64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\c\linux\test\cgi.c -o CMakeFiles\swoole_test.dir\cgi.c.s
 
 # Object files for target swoole_test
 swoole_test_OBJECTS = \
-"CMakeFiles/swoole_test.dir/pthread2.c.obj"
+"CMakeFiles/swoole_test.dir/cgi.c.obj"
 
 # External object files for target swoole_test
 swoole_test_EXTERNAL_OBJECTS =
 
-swoole_test.exe: CMakeFiles/swoole_test.dir/pthread2.c.obj
+swoole_test.exe: CMakeFiles/swoole_test.dir/cgi.c.obj
 swoole_test.exe: CMakeFiles/swoole_test.dir/build.make
 swoole_test.exe: CMakeFiles/swoole_test.dir/linklibs.rsp
 swoole_test.exe: CMakeFiles/swoole_test.dir/objects1.rsp

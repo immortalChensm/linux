@@ -147,6 +147,7 @@ void worker(instance_t *inst,int listenfd)
                             break;
                     }
                 }
+
             }
             else if (events[i].events&EPOLLIN){
                 //连接sockete上的事件

@@ -4,7 +4,7 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-
+#include <cstdio>
 namespace Test{
 
     class Person
@@ -24,6 +24,10 @@ int main()
 {
     Test::Person people;
     people.display();
+
+    std::printf("hello %d\n",100);
+
+    using namespace std;
 
     return 0;
 }

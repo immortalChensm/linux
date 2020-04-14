@@ -5,6 +5,7 @@
 #include <iostream>
 #include <string>
 //函数重载 Function Overloading
+//在编译时，编译器依然会修改Swap函数为_Swap_int_int _Swap_char_char 为不同的函数
 
 using namespace std;
 

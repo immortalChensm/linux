@@ -14,6 +14,7 @@ inline void display(string str)
 int main()
 {
 
+    cout<<(1<<2&u8);
     display("hello,world");
     cout<<(1<<2&1<<3|0b1100&8)<<endl;//0001 0100
                                    //0001 1000

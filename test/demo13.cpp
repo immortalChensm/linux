@@ -19,7 +19,7 @@ public:
     }
     void talk();//类体中声明
 };
-void person::talk(){//类体外里定义  不让它是内联函数  内联函数类似宏替换 
+void person::talk(){//类体外里定义  不让它是内联函数  内联函数类似宏替换
     cout<<"talk method"<<name<<"'s age is "<<age<<",score is "<<score<<endl;
 }
 int main()

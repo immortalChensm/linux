@@ -73,5 +73,6 @@ int main()
     tang->setScore(60);
     tang->setName((char*)"tang");
     tang->show();
+    delete tang;
     return 0;
 }

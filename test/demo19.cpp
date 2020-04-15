@@ -30,5 +30,6 @@ int main()
 {
     Person *tom = new Person(100,100,(char*)"tom");
     tom -> display();
+    delete tom;
     return 0;
 }

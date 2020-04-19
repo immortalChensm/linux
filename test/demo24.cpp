@@ -17,7 +17,7 @@ namespace Jack
       char *m_code;
   public:
       City(char *address,char *code);
-      ~City();
+      //~City();
       void getCity();
   };
 
@@ -25,10 +25,10 @@ namespace Jack
   void City::getCity() {
       cout<<"my city address is "<<m_address<<" and code is "<<m_code<<endl;
   }
-  City::~City() {
-      //cout<<m_address<<"over\n";
-      cout<<"over"<<endl;
-  }
+//  City::~City() {
+//      //cout<<m_address<<"over\n";
+//      cout<<"over"<<endl;
+//  }
 };
 int main()
 {
@@ -44,9 +44,9 @@ int main()
 
     for (int j = 0; j <2 ; ++j) {
         cityes1[j]->getCity();
-        //delete [] cityes1[j];
+        delete [] cityes1[j];
     }
     cout<<"test"<<endl;
-    
+
     return 0;
 }

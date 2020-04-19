@@ -6,15 +6,9 @@
 
 #IncludeRegexTransform: 
 
-E:/c/linux/test/demo27.cpp
+E:/c/linux/test/demo28.cpp
 iostream
 -
 string
--
-string.h
--
-unistd.h
--
-windows.h
 -
 

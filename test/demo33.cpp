@@ -26,7 +26,7 @@ private:
     char *m_prvoince;
 public:
     Address(char *city,char *province);
-    friend void Person::show(Address *address);
+    friend void Person::show(Address *address);//表示Person的show方法能访问本类的所有成员
 };
 Person::Person(int age, char *name, char *address):m_age(age),m_name(name),m_address(address) {}
 void Person::show(Address *address) {

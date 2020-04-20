@@ -57,5 +57,15 @@ int main()
         people1[j]->show();
         cout<<people1[j]->getName()<<endl;
     }
+
+    cout<<"******************"<<endl;
+
+    //常对象
+    const Person obj(10,(char*)"obj1",(char*)"obj1");
+    cout<<obj.getName()<<endl;
+
+    const Person *obj1 = new Person(20,(char*)"obj2",(char*)"obj2");
+    cout<<obj1->getName()<<endl;
+
     return 0;
 }

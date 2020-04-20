@@ -122,32 +122,32 @@ swoole_test/fast:
 	$(MAKE) -f CMakeFiles\swoole_test.dir\build.make CMakeFiles/swoole_test.dir/build
 .PHONY : swoole_test/fast
 
-demo31.obj: demo31.cpp.obj
+demo33.obj: demo33.cpp.obj
 
-.PHONY : demo31.obj
+.PHONY : demo33.obj
 
 # target to build an object file
-demo31.cpp.obj:
-	$(MAKE) -f CMakeFiles\swoole_test.dir\build.make CMakeFiles/swoole_test.dir/demo31.cpp.obj
-.PHONY : demo31.cpp.obj
+demo33.cpp.obj:
+	$(MAKE) -f CMakeFiles\swoole_test.dir\build.make CMakeFiles/swoole_test.dir/demo33.cpp.obj
+.PHONY : demo33.cpp.obj
 
-demo31.i: demo31.cpp.i
+demo33.i: demo33.cpp.i
 
-.PHONY : demo31.i
+.PHONY : demo33.i
 
 # target to preprocess a source file
-demo31.cpp.i:
-	$(MAKE) -f CMakeFiles\swoole_test.dir\build.make CMakeFiles/swoole_test.dir/demo31.cpp.i
-.PHONY : demo31.cpp.i
+demo33.cpp.i:
+	$(MAKE) -f CMakeFiles\swoole_test.dir\build.make CMakeFiles/swoole_test.dir/demo33.cpp.i
+.PHONY : demo33.cpp.i
 
-demo31.s: demo31.cpp.s
+demo33.s: demo33.cpp.s
 
-.PHONY : demo31.s
+.PHONY : demo33.s
 
 # target to generate assembly for a file
-demo31.cpp.s:
-	$(MAKE) -f CMakeFiles\swoole_test.dir\build.make CMakeFiles/swoole_test.dir/demo31.cpp.s
-.PHONY : demo31.cpp.s
+demo33.cpp.s:
+	$(MAKE) -f CMakeFiles\swoole_test.dir\build.make CMakeFiles/swoole_test.dir/demo33.cpp.s
+.PHONY : demo33.cpp.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... swoole_test
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... demo31.obj
-	@echo ... demo31.i
-	@echo ... demo31.s
+	@echo ... demo33.obj
+	@echo ... demo33.i
+	@echo ... demo33.s
 .PHONY : help
 
 

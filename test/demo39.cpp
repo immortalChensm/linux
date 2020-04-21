@@ -12,6 +12,12 @@ void swap1(int a,int b);
 void swap2(int *p1,int *p2);
 void swap3(int &r1,int &r2);
 
+
+int &plus1(int &a)
+{
+    a+=10;
+    return a;
+}
 int main()
 {
 
@@ -32,17 +38,20 @@ int main()
 
     //num1 0x1=10
     //num2 0x2=20
-    int num1,num2;
-    cout<<"input two number:";
-    cin>>num1>>num2;
-    cout<<num1<<num2<<endl;
+//    int num1,num2;
+//    cout<<"input two number:";
+//    cin>>num1>>num2;
+//    cout<<num1<<num2<<endl;
+//
+//    //swap1(num1,num2);
+//    //swap2(&num1,&num2);
+//    swap3(num1,num2);
+//    cout<<num1<<num2<<endl;
 
-    //swap1(num1,num2);
-    //swap2(&num1,&num2);
-    swap3(num1,num2);
-    cout<<num1<<num2<<endl;
+    int num=10;
 
-
+    int sum = plus1(num);
+    cout<<sum<<endl;
     return 0;
 }
 

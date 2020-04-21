@@ -6,11 +6,9 @@
 
 #IncludeRegexTransform: 
 
-E:/c/linux/test/demo39.cpp
-iostream
--
+E:/c/linux/test/demo39.c
 stdlib.h
 -
-string
+stdio.h
 -
 

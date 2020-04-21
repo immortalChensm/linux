@@ -7,6 +7,8 @@
 #include <string.h>
 using namespace std;
 
+#include <stdlib.h>
+#include <unistd.h>
 int main()
 {
 
@@ -52,7 +54,7 @@ int main()
 
     //cout<<s.substr(2,3)<<endl;
 
-    string http = "GET / HTTP/1.1\ncontent-type:text/html\r\n";
+   // string http = "GET / HTTP/1.1\ncontent-type:text/html\r\n";
     //cout<<http.substr(3);
     //cout<<http.find("GET")<<endl;
     //cout<<http.substr()<<endl;
@@ -64,8 +66,33 @@ int main()
 //    }else{
 //        cout<<"not found\n";
 //    }
-    string s1 = "DO ok chinese";
-    int index = http.find_first_of(s1);
-    cout<<index<<endl;
+    //string s1 = "DO ok chinese";
+    //int index = http.find_first_of(s1);
+    //cout<<index<<endl;
+
+//    FILE *fp;
+//    fp = fopen("test.log","wb");
+//    if (fp==NULL)
+//    {
+//        cout<<"error\n";
+//        exit(0);
+//    }
+//    string content = "japanese";
+//    for (int i = 0; i <100000 ; ++i) {
+//        content.insert(content.length(),"china is developed countrychina is developed countrychina is developed countrychina is developed countrychina is developed countrychina is developed country\n");
+//    }
+//    size_t  size=fwrite(content.c_str(),content.length(),1,fp);
+//    cout<<size<<endl;
+//    fclose(fp);
+//    cout<<content<<endl;
+//    cout<<content.length()<<endl;
+
+    string s = "ok\r\ngood\r\nnice\r\n";
+
+    string s1= "\r\n";
+    for (int i = 0; i <s.substr(s.find(s1)) ; ++i) {
+
+    }
+
     return 0;
 }

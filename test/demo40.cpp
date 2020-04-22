@@ -19,7 +19,7 @@ int main()
      */
     int &r=a;
 
-    //r=0x1 == *0x1
+    //r=0x1 == *0x1 调用r=*r
     cout<<a<<r<<endl;
     cout<<&a<<"="<<&r<<endl;
     printf("%#x==%#x\n",&a,&r);

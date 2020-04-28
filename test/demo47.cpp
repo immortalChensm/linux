@@ -46,7 +46,10 @@ int main()
     d.Base::func();
     d.Base::func(100);
 
-    d.show();
+    //d.show();
+
+    int a = 10;//0000 1010 0000 0101
+    cout<<(a>>1)<<endl;
 
     return 0;
 }

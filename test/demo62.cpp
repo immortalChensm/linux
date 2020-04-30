@@ -41,14 +41,28 @@ void Teacher::display() {
 
 int main()
 {
-    People *p = new People((char*)"tom",20);
-    p->display();
+//    People *p = new People((char*)"tom",20);
+//    p->display();
+//
+//    //向下转型  teacher类的对象实例的第一个成员地址是和people类的实例第一个成员地址是一样的
+//    //但是，p的数据类型是people类，并不是teacher类
+//    //而display是一个全局函数，在编译时，传递的隐匿参数是teacher，但是类型是people
+//    p = new Teacher((char*)"jack",18,100000);
+//    p->display();
 
-    //向下转型  teacher类的对象实例的第一个成员地址是和people类的实例第一个成员地址是一样的
-    //但是，p的数据类型是people类，并不是teacher类
-    //而display是一个全局函数，在编译时，传递的隐匿参数是teacher，但是类型是people
-    p = new Teacher((char*)"jack",18,100000);
-    p->display();
+    People p((char*)"tom",200);
+    Teacher t((char*)"jack",200,100);
+
+    /**
+     * People *rp = &p
+     */
+    People &rp = p;
+    People &rt = t;
+    /**
+     * *rp.display()
+     */
+    rp.display();
+    rt.display();
 
 
 

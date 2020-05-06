@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/swoole_test.dir/demo67.cpp.obj"
+  "CMakeFiles/swoole_test.dir/demo69.cpp.obj"
   "swoole_test.pdb"
   "swoole_test.exe"
   "swoole_test.exe.manifest"

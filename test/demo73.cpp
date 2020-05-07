@@ -102,6 +102,15 @@ Complex& Complex::operator*=(const Complex &c) {
 Complex& Complex::operator/=(const Complex &c) {
     this->m_real=(this->m_real*c.m_real+this->m_imag*c.m_imag)/(pow(c.m_real,2)+pow(c.m_imag,2));
     this->m_imag=(this->m_imag*c.m_real-this->m_real*c.m_imag)/(pow(c.m_real,2)+pow(c.m_imag,2));
+    /**
+     * int &a=b;  *a=&b
+     */
+     //返回类型是&
+     //Complex &
+     //Complex *
+     //如果是this this目前是一个指针【地址】了 this是一个指针变量，内容是一个地址
+     //*this 相当于普通变量
+     //看到c++的引用时，赋值要给变量，不管参数是引用，还是返回是引用，都要给普通变量，不能给指针变量的，因为c++要转换一次
     return *this;
 }
 
@@ -129,5 +138,7 @@ int main()
     }else{
         cout<<"c1!=c2\n";
     }
+
+
     return 0;
 }

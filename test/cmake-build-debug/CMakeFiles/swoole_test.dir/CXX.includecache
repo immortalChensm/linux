@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-E:/c/linux/test/demo72.cpp
+E:/c/linux/test/demo73.cpp
 iostream
 -
 string
 -
-typeinfo
+math.h
 -
 

@@ -47,7 +47,7 @@ int main()
     b.m_flag=2;
     A c;
     c.m_flag=5;
-    c = a-b;
+    c = a-b-b;
     c.display();
 
     return 0;

@@ -63,21 +63,47 @@ void Array::display() const {
     }
 }
 
+void test(int &b)
+{
+    b=600;
+
+}
+int &test(int &b,int c){
+    b = 1000;
+    return b;
+}
 int main()
 {
-    int n;
-    cin>>n;
+//    int n;
+//    cin>>n;
+//
+//    Array A(n);
+//    for (int i = 0,len=A.length(); i <len ; ++i) {
+//
+//        //往指定内存写入数据
+//        A[i] = i*5;
+//        //A.operator[](i) 返回类型是i指定的一个引用
+//    }
+//    A.display();
+//    const Array B(n);
+//    cout<<B[n-1]<<endl;
 
-    Array A(n);
-    for (int i = 0,len=A.length(); i <len ; ++i) {
+    int b=100;
+    int &a=b;
+    b=101;
+    cout<<a<<b<<endl;
 
-        //往指定内存写入数据
-        A[i] = i*5;
-        //A.operator[](i) 返回类型是i指定的一个引用
-    }
-    A.display();
-    const Array B(n);
-    cout<<B[n-1]<<endl;
+    a=200;
+    cout<<a<<b<<endl;
+
+    test(b);
+    cout<<a<<b<<endl;
+
+    int &c = test(b,0);
+    cout<<a<<b<<c<<endl;
+
+    c = 2000;
+    cout<<a<<b<<c;
 
     return 0;
 }

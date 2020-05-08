@@ -6,8 +6,10 @@
 
 #IncludeRegexTransform: 
 
-E:/c/linux/test/demo76.cpp
+E:/c/linux/test/demo77.cpp
 iostream
+-
+iomanip
 -
 string
 -

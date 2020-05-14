@@ -23,9 +23,14 @@ int main()
     int b[5] = {10,20,30,40,50};
 
     int len = sizeof(a)/ sizeof(int);
-    Swap(a,b,len);
+    Swap<int>(a,b,len);
     printArray(a,len);
     printArray(b,len);
+
+    //*c = &b[0]
+    //*c[]
+    int (&c)[] = b;
+    cout<<c[1]<<endl;
     return 0;
 }
 

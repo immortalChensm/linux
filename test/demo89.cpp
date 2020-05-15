@@ -35,6 +35,10 @@ int main()
     int (&c)[5] = b;
     cout<<c[1]<<endl;
 
+    int e[2][5] = {{1,2,3,4,5},{6,7,8,9,10}};
+    int (*d)[5] = e;
+    cout<<d[0][0]<<endl;
+
     return 0;
 }
 

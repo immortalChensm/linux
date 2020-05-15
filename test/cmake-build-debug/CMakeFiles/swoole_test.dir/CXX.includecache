@@ -6,9 +6,17 @@
 
 #IncludeRegexTransform: 
 
-E:/c/linux/test/demo89.cpp
+E:/c/linux/test/computer.h
 iostream
 -
-string
+
+E:/c/linux/test/func.h
+
+E:/c/linux/test/main.cpp
+iostream
 -
+func.h
+E:/c/linux/test/func.h
+computer.h
+E:/c/linux/test/computer.h
 

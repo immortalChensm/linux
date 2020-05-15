@@ -122,32 +122,59 @@ swoole_test/fast:
 	$(MAKE) -f CMakeFiles\swoole_test.dir\build.make CMakeFiles/swoole_test.dir/build
 .PHONY : swoole_test/fast
 
-demo89.obj: demo89.cpp.obj
+func.obj: func.cpp.obj
 
-.PHONY : demo89.obj
+.PHONY : func.obj
 
 # target to build an object file
-demo89.cpp.obj:
-	$(MAKE) -f CMakeFiles\swoole_test.dir\build.make CMakeFiles/swoole_test.dir/demo89.cpp.obj
-.PHONY : demo89.cpp.obj
+func.cpp.obj:
+	$(MAKE) -f CMakeFiles\swoole_test.dir\build.make CMakeFiles/swoole_test.dir/func.cpp.obj
+.PHONY : func.cpp.obj
 
-demo89.i: demo89.cpp.i
+func.i: func.cpp.i
 
-.PHONY : demo89.i
+.PHONY : func.i
 
 # target to preprocess a source file
-demo89.cpp.i:
-	$(MAKE) -f CMakeFiles\swoole_test.dir\build.make CMakeFiles/swoole_test.dir/demo89.cpp.i
-.PHONY : demo89.cpp.i
+func.cpp.i:
+	$(MAKE) -f CMakeFiles\swoole_test.dir\build.make CMakeFiles/swoole_test.dir/func.cpp.i
+.PHONY : func.cpp.i
 
-demo89.s: demo89.cpp.s
+func.s: func.cpp.s
 
-.PHONY : demo89.s
+.PHONY : func.s
 
 # target to generate assembly for a file
-demo89.cpp.s:
-	$(MAKE) -f CMakeFiles\swoole_test.dir\build.make CMakeFiles/swoole_test.dir/demo89.cpp.s
-.PHONY : demo89.cpp.s
+func.cpp.s:
+	$(MAKE) -f CMakeFiles\swoole_test.dir\build.make CMakeFiles/swoole_test.dir/func.cpp.s
+.PHONY : func.cpp.s
+
+main.obj: main.cpp.obj
+
+.PHONY : main.obj
+
+# target to build an object file
+main.cpp.obj:
+	$(MAKE) -f CMakeFiles\swoole_test.dir\build.make CMakeFiles/swoole_test.dir/main.cpp.obj
+.PHONY : main.cpp.obj
+
+main.i: main.cpp.i
+
+.PHONY : main.i
+
+# target to preprocess a source file
+main.cpp.i:
+	$(MAKE) -f CMakeFiles\swoole_test.dir\build.make CMakeFiles/swoole_test.dir/main.cpp.i
+.PHONY : main.cpp.i
+
+main.s: main.cpp.s
+
+.PHONY : main.s
+
+# target to generate assembly for a file
+main.cpp.s:
+	$(MAKE) -f CMakeFiles\swoole_test.dir\build.make CMakeFiles/swoole_test.dir/main.cpp.s
+.PHONY : main.cpp.s
 
 # Help Target
 help:
@@ -158,9 +185,12 @@ help:
 	@echo ... swoole_test
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... demo89.obj
-	@echo ... demo89.i
-	@echo ... demo89.s
+	@echo ... func.obj
+	@echo ... func.i
+	@echo ... func.s
+	@echo ... main.obj
+	@echo ... main.i
+	@echo ... main.s
 .PHONY : help
 
 

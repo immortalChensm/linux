@@ -82,7 +82,13 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="E:/c/linux/test/demo89.cpp">
+		<Unit filename="E:/c/linux/test/func.cpp">
+			<Option target="swoole_test"/>
+		</Unit>
+		<Unit filename="E:/c/linux/test/func.h">
+			<Option target="swoole_test"/>
+		</Unit>
+		<Unit filename="E:/c/linux/test/main.cpp">
 			<Option target="swoole_test"/>
 		</Unit>
 		<Unit filename="E:/c/linux/test/CMakeLists.txt">

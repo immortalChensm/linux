@@ -6,17 +6,15 @@
 
 #IncludeRegexTransform: 
 
-E:/c/linux/test/computer.h
+E:/c/linux/test/func1.h
+
+E:/c/linux/test/main1.cpp
 iostream
 -
+func1.h
+E:/c/linux/test/func1.h
+point.h
+E:/c/linux/test/point.h
 
-E:/c/linux/test/func.h
-
-E:/c/linux/test/main.cpp
-iostream
--
-func.h
-E:/c/linux/test/func.h
-computer.h
-E:/c/linux/test/computer.h
+E:/c/linux/test/point.h
 

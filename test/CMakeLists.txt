@@ -2,6 +2,6 @@ cmake_minimum_required(VERSION 3.12)
 project(swoole_test)
 
 set(CMAKE_CXX_STANDARD 11)
-set(SRC_LIST func.cpp main.cpp)
+set(SRC_LIST func1.cpp main1.cpp point.cpp)
 add_executable(swoole_test ${SRC_LIST})
 #target_link_libraries(swoole_test pthread)

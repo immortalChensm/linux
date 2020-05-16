@@ -122,59 +122,86 @@ swoole_test/fast:
 	$(MAKE) -f CMakeFiles\swoole_test.dir\build.make CMakeFiles/swoole_test.dir/build
 .PHONY : swoole_test/fast
 
-func.obj: func.cpp.obj
+func1.obj: func1.cpp.obj
 
-.PHONY : func.obj
-
-# target to build an object file
-func.cpp.obj:
-	$(MAKE) -f CMakeFiles\swoole_test.dir\build.make CMakeFiles/swoole_test.dir/func.cpp.obj
-.PHONY : func.cpp.obj
-
-func.i: func.cpp.i
-
-.PHONY : func.i
-
-# target to preprocess a source file
-func.cpp.i:
-	$(MAKE) -f CMakeFiles\swoole_test.dir\build.make CMakeFiles/swoole_test.dir/func.cpp.i
-.PHONY : func.cpp.i
-
-func.s: func.cpp.s
-
-.PHONY : func.s
-
-# target to generate assembly for a file
-func.cpp.s:
-	$(MAKE) -f CMakeFiles\swoole_test.dir\build.make CMakeFiles/swoole_test.dir/func.cpp.s
-.PHONY : func.cpp.s
-
-main.obj: main.cpp.obj
-
-.PHONY : main.obj
+.PHONY : func1.obj
 
 # target to build an object file
-main.cpp.obj:
-	$(MAKE) -f CMakeFiles\swoole_test.dir\build.make CMakeFiles/swoole_test.dir/main.cpp.obj
-.PHONY : main.cpp.obj
+func1.cpp.obj:
+	$(MAKE) -f CMakeFiles\swoole_test.dir\build.make CMakeFiles/swoole_test.dir/func1.cpp.obj
+.PHONY : func1.cpp.obj
 
-main.i: main.cpp.i
+func1.i: func1.cpp.i
 
-.PHONY : main.i
+.PHONY : func1.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles\swoole_test.dir\build.make CMakeFiles/swoole_test.dir/main.cpp.i
-.PHONY : main.cpp.i
+func1.cpp.i:
+	$(MAKE) -f CMakeFiles\swoole_test.dir\build.make CMakeFiles/swoole_test.dir/func1.cpp.i
+.PHONY : func1.cpp.i
 
-main.s: main.cpp.s
+func1.s: func1.cpp.s
 
-.PHONY : main.s
+.PHONY : func1.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles\swoole_test.dir\build.make CMakeFiles/swoole_test.dir/main.cpp.s
-.PHONY : main.cpp.s
+func1.cpp.s:
+	$(MAKE) -f CMakeFiles\swoole_test.dir\build.make CMakeFiles/swoole_test.dir/func1.cpp.s
+.PHONY : func1.cpp.s
+
+main1.obj: main1.cpp.obj
+
+.PHONY : main1.obj
+
+# target to build an object file
+main1.cpp.obj:
+	$(MAKE) -f CMakeFiles\swoole_test.dir\build.make CMakeFiles/swoole_test.dir/main1.cpp.obj
+.PHONY : main1.cpp.obj
+
+main1.i: main1.cpp.i
+
+.PHONY : main1.i
+
+# target to preprocess a source file
+main1.cpp.i:
+	$(MAKE) -f CMakeFiles\swoole_test.dir\build.make CMakeFiles/swoole_test.dir/main1.cpp.i
+.PHONY : main1.cpp.i
+
+main1.s: main1.cpp.s
+
+.PHONY : main1.s
+
+# target to generate assembly for a file
+main1.cpp.s:
+	$(MAKE) -f CMakeFiles\swoole_test.dir\build.make CMakeFiles/swoole_test.dir/main1.cpp.s
+.PHONY : main1.cpp.s
+
+point.obj: point.cpp.obj
+
+.PHONY : point.obj
+
+# target to build an object file
+point.cpp.obj:
+	$(MAKE) -f CMakeFiles\swoole_test.dir\build.make CMakeFiles/swoole_test.dir/point.cpp.obj
+.PHONY : point.cpp.obj
+
+point.i: point.cpp.i
+
+.PHONY : point.i
+
+# target to preprocess a source file
+point.cpp.i:
+	$(MAKE) -f CMakeFiles\swoole_test.dir\build.make CMakeFiles/swoole_test.dir/point.cpp.i
+.PHONY : point.cpp.i
+
+point.s: point.cpp.s
+
+.PHONY : point.s
+
+# target to generate assembly for a file
+point.cpp.s:
+	$(MAKE) -f CMakeFiles\swoole_test.dir\build.make CMakeFiles/swoole_test.dir/point.cpp.s
+.PHONY : point.cpp.s
 
 # Help Target
 help:
@@ -185,12 +212,15 @@ help:
 	@echo ... swoole_test
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... func.obj
-	@echo ... func.i
-	@echo ... func.s
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
+	@echo ... func1.obj
+	@echo ... func1.i
+	@echo ... func1.s
+	@echo ... main1.obj
+	@echo ... main1.i
+	@echo ... main1.s
+	@echo ... point.obj
+	@echo ... point.i
+	@echo ... point.s
 .PHONY : help
 
 

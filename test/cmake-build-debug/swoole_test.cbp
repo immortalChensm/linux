@@ -82,19 +82,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="E:/c/linux/test/func1.cpp">
-			<Option target="swoole_test"/>
-		</Unit>
-		<Unit filename="E:/c/linux/test/func1.h">
-			<Option target="swoole_test"/>
-		</Unit>
-		<Unit filename="E:/c/linux/test/main1.cpp">
-			<Option target="swoole_test"/>
-		</Unit>
-		<Unit filename="E:/c/linux/test/point.cpp">
-			<Option target="swoole_test"/>
-		</Unit>
-		<Unit filename="E:/c/linux/test/point.h">
+		<Unit filename="E:/c/linux/test/demo94.cpp">
 			<Option target="swoole_test"/>
 		</Unit>
 		<Unit filename="E:/c/linux/test/CMakeLists.txt">

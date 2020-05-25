@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-E:/c/linux/test/demo111.cpp
+E:/c/linux/test/demo113.cpp
 iostream
 -
-cstdlib
+ctime
 -
-string
+windows.h
 -
 

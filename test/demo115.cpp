@@ -47,8 +47,8 @@ int main()
 
     //Complex *b = new Complex(1,2);
     Complex b(1,2);
-
-    b=b+a;//b.opertor+(Complex(1))
+    Complex c = 100;
+    b=b+a+c;//b.opertor+(Complex(1))
 
     cout<<b<<endl;
     return 0;

@@ -4,7 +4,8 @@
 
 #include <iostream>
 #include <cstdlib>
-
+#include <string.h>
+#include <exception>
 using namespace std;
 
 class Array
@@ -62,25 +63,53 @@ void printArray(const Array &arr){
 
 int main()
 {
-    Array arr1(10);
-    for (int i = 0; i <10 ; ++i) {
-        arr1[i]=i;
+//    Array arr1(10);
+//    for (int i = 0; i <10 ; ++i) {
+//        arr1[i]=i;
+//    }
+//
+//    printArray(arr1);
+//
+//    Array arr2(5);
+//    for (int j = 0; j <5 ; ++j) {
+//        arr2[j]=j;
+//    }
+//    printArray(arr2);
+//    arr2 = arr1;
+//
+//
+//    arr2[3]=234;
+//    arr2[7]=920;
+//
+//    printArray(arr1);
+
+    char *recvMessage=(char*)"";
+    char *data=(char*)"hello";
+    int readByte=0;
+    int len=0;
+    for(int i=1;i<10;i++){
+
+
+        len = (strlen(data))*i;
+        if (strlen(recvMessage)==0){
+            recvMessage = (char*)malloc(len* sizeof(char));
+            memcpy(recvMessage,data,len);
+        }else{
+            recvMessage=(char*)realloc(recvMessage,strlen(recvMessage)+len);
+            strcat(recvMessage,data);
+        }
     }
 
-    printArray(arr1);
+    cout<<recvMessage<<endl;
+    cout<<strlen(recvMessage)<<endl;
 
-    Array arr2(5);
-    for (int j = 0; j <5 ; ++j) {
-        arr2[j]=j;
-    }
-    printArray(arr2);
-    arr2 = arr1;
+    char content[1024];
+    sprintf(content,"HTTP/1.1 200 OK\r\nServer:c server\r\nContent-type:text/html\r\n"
+                    "Connection: close\r\n\r\n\r\n<html><meta charset='UTF-8'/><div>%s</div></html>\r\n\r\n","hello");
+
+    cout<<content<<endl;
 
 
-    arr2[3]=234;
-    arr2[7]=920;
-
-    printArray(arr1);
 
     return 0;
 }

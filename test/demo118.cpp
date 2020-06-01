@@ -45,7 +45,7 @@ int main()
     c1 = 78.4;//转换构造函数
 
     cout<<c1<<endl;//operator<<()
-    //f = 12.5+c1; //有可能先将12.5转换为complex类型  或是先将c1转换为double
+    //f = 12.5+c1; //有可能先将12.5转换为complex类型  或是先将c1转换为double 编译器不知道
 
     //Complex c2 = c1+46.7;
 

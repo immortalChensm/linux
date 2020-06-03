@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-E:/c/linux/test/demo125.cpp
-iostream
+E:/c/linux/test/doublelink.cpp
+stdio.h
 -
-string
+stdlib.h
 -
 

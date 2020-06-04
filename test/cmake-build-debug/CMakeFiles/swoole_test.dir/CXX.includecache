@@ -6,13 +6,11 @@
 
 #IncludeRegexTransform: 
 
-E:/c/linux/test/demo127.cpp
+E:/c/linux/test/doublelink.cpp
+stdio.h
+-
+stdlib.h
+-
 iostream
--
-fstream
--
-string.h
--
-typeinfo
 -
 

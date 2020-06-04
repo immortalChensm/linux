@@ -4,7 +4,8 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-
+#include <iostream>
+using namespace std;
 typedef struct line
 {
     struct line *prior;
@@ -15,6 +16,77 @@ typedef struct line
 line *initLine(line *head);
 void display(line *head);
 
+line *insertLine(line *head,int data,int add)
+{
+    line *temp = (line*)malloc(sizeof(line));
+    temp->data=data;
+    temp->prior=NULL;
+    temp->next=NULL;
+    
+    if (add==1){
+        temp->next=head;
+        head->prior=temp;
+        head=temp;
+    }else{
+
+        line *body = head;
+        for (int i = 1; i <add ; ++i) {
+            body = body->next;
+        }
+        if (body->next==NULL){
+            body->next=temp;
+            temp->prior=body;
+        }else{
+
+            body->next->prior=temp;
+            temp->next=body->next;
+            body->next=temp;
+            temp->prior=body;
+        }
+    }
+
+    return head;
+}
+line *delLine(line *head,int data)
+{
+    line *temp = head;
+    while (temp){
+
+        if (temp->data==data){
+
+            temp->prior->next=temp->next;
+            temp->next->prior=temp->prior;
+            free(temp);
+            return head;
+        }
+        temp=temp->next;
+
+    }
+    return head;
+}
+int searchElem(line *head,int elem)
+{
+    line *temp = head;
+    int i=1;
+    while (temp){
+
+        if (temp->data==elem){
+            return i;
+        }
+        i++;
+        temp = temp->next;
+    }
+    return -1;
+}
+line *updateLine(line *head,int add,int newElem)
+{
+    line *temp = head;
+    for (int i = 1; i <add ; ++i) {
+        temp = temp->next;
+    }
+    temp->data=newElem;
+    return head;
+}
 int main()
 {
     line *head=NULL;
@@ -24,6 +96,19 @@ int main()
 
     printf("%d\n",head->next->next->data);
     printf("%d\n",head->next->next->prior->data);
+
+    cout<<"*********************"<<endl;
+
+    head = insertLine(head,200,2);
+    display(head);
+    head = updateLine(head,3,2000);
+    display(head);
+    head = delLine(head,3);
+    display(head);
+
+    int pos = searchElem(head,5);
+    cout<<pos<<endl;
+
     return 0;
 }
 

@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-E:/c/linux/test/doublelink.cpp
-stdio.h
--
-stdlib.h
--
+E:/c/linux/test/demo129.cpp
 iostream
+-
+string
+-
+stdio.h
 -
 

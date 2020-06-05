@@ -5,6 +5,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <iostream>
+#include <pthread.h>
+#include <unistd.h>
 using namespace std;
 typedef struct line
 {
@@ -87,10 +89,15 @@ line *updateLine(line *head,int add,int newElem)
     temp->data=newElem;
     return head;
 }
+void *talk(void *arg)
+{
+    cout<<pthread_self()<<"talk"<<endl;
+}
 int main()
 {
     line *head=NULL;
     head = initLine(head);
+    pthread_t tid;
 
     display(head);
 
@@ -108,7 +115,8 @@ int main()
 
     int pos = searchElem(head,5);
     cout<<pos<<endl;
-
+    pthread_create(&tid,NULL,talk,NULL);
+    sleep(1);
     return 0;
 }
 

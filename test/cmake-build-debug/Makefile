@@ -55,17 +55,6 @@ CMAKE_BINARY_DIR = E:\c\linux\test\cmake-build-debug
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"F:\Program Files (x86)\CLion 2018.2.2\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
-
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
@@ -76,6 +65,17 @@ rebuild_cache:
 rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
+
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	"F:\Program Files (x86)\CLion 2018.2.2\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -110,44 +110,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named swoole_test
+# Target rules for targets named test
 
 # Build rule for target.
-swoole_test: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 swoole_test
-.PHONY : swoole_test
+test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 test
+.PHONY : test
 
 # fast build rule for target.
-swoole_test/fast:
-	$(MAKE) -f CMakeFiles\swoole_test.dir\build.make CMakeFiles/swoole_test.dir/build
-.PHONY : swoole_test/fast
+test/fast:
+	$(MAKE) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/build
+.PHONY : test/fast
 
-queue1.obj: queue1.cpp.obj
+demo138.obj: demo138.cpp.obj
 
-.PHONY : queue1.obj
+.PHONY : demo138.obj
 
 # target to build an object file
-queue1.cpp.obj:
-	$(MAKE) -f CMakeFiles\swoole_test.dir\build.make CMakeFiles/swoole_test.dir/queue1.cpp.obj
-.PHONY : queue1.cpp.obj
+demo138.cpp.obj:
+	$(MAKE) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/demo138.cpp.obj
+.PHONY : demo138.cpp.obj
 
-queue1.i: queue1.cpp.i
+demo138.i: demo138.cpp.i
 
-.PHONY : queue1.i
+.PHONY : demo138.i
 
 # target to preprocess a source file
-queue1.cpp.i:
-	$(MAKE) -f CMakeFiles\swoole_test.dir\build.make CMakeFiles/swoole_test.dir/queue1.cpp.i
-.PHONY : queue1.cpp.i
+demo138.cpp.i:
+	$(MAKE) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/demo138.cpp.i
+.PHONY : demo138.cpp.i
 
-queue1.s: queue1.cpp.s
+demo138.s: demo138.cpp.s
 
-.PHONY : queue1.s
+.PHONY : demo138.s
 
 # target to generate assembly for a file
-queue1.cpp.s:
-	$(MAKE) -f CMakeFiles\swoole_test.dir\build.make CMakeFiles/swoole_test.dir/queue1.cpp.s
-.PHONY : queue1.cpp.s
+demo138.cpp.s:
+	$(MAKE) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/demo138.cpp.s
+.PHONY : demo138.cpp.s
 
 # Help Target
 help:
@@ -155,12 +155,12 @@ help:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
 	@echo ... depend
-	@echo ... swoole_test
-	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... queue1.obj
-	@echo ... queue1.i
-	@echo ... queue1.s
+	@echo ... test
+	@echo ... edit_cache
+	@echo ... demo138.obj
+	@echo ... demo138.i
+	@echo ... demo138.s
 .PHONY : help
 
 

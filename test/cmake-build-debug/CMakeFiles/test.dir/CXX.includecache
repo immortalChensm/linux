@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-E:/c/linux/test/vector.cpp
+E:/c/linux/test/demo138.cpp
 iostream
 -
-vector
+fstream
 -
 

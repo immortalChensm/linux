@@ -122,32 +122,32 @@ test/fast:
 	$(MAKE) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/build
 .PHONY : test/fast
 
-demo139.obj: demo139.cpp.obj
+queueLink.obj: queueLink.cpp.obj
 
-.PHONY : demo139.obj
+.PHONY : queueLink.obj
 
 # target to build an object file
-demo139.cpp.obj:
-	$(MAKE) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/demo139.cpp.obj
-.PHONY : demo139.cpp.obj
+queueLink.cpp.obj:
+	$(MAKE) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/queueLink.cpp.obj
+.PHONY : queueLink.cpp.obj
 
-demo139.i: demo139.cpp.i
+queueLink.i: queueLink.cpp.i
 
-.PHONY : demo139.i
+.PHONY : queueLink.i
 
 # target to preprocess a source file
-demo139.cpp.i:
-	$(MAKE) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/demo139.cpp.i
-.PHONY : demo139.cpp.i
+queueLink.cpp.i:
+	$(MAKE) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/queueLink.cpp.i
+.PHONY : queueLink.cpp.i
 
-demo139.s: demo139.cpp.s
+queueLink.s: queueLink.cpp.s
 
-.PHONY : demo139.s
+.PHONY : queueLink.s
 
 # target to generate assembly for a file
-demo139.cpp.s:
-	$(MAKE) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/demo139.cpp.s
-.PHONY : demo139.cpp.s
+queueLink.cpp.s:
+	$(MAKE) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/queueLink.cpp.s
+.PHONY : queueLink.cpp.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... rebuild_cache
 	@echo ... test
 	@echo ... edit_cache
-	@echo ... demo139.obj
-	@echo ... demo139.i
-	@echo ... demo139.s
+	@echo ... queueLink.obj
+	@echo ... queueLink.i
+	@echo ... queueLink.s
 .PHONY : help
 
 

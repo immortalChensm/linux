@@ -122,32 +122,32 @@ test/fast:
 	$(MAKE) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/build
 .PHONY : test/fast
 
-demo140.obj: demo140.cpp.obj
+demo142.obj: demo142.cpp.obj
 
-.PHONY : demo140.obj
+.PHONY : demo142.obj
 
 # target to build an object file
-demo140.cpp.obj:
-	$(MAKE) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/demo140.cpp.obj
-.PHONY : demo140.cpp.obj
+demo142.cpp.obj:
+	$(MAKE) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/demo142.cpp.obj
+.PHONY : demo142.cpp.obj
 
-demo140.i: demo140.cpp.i
+demo142.i: demo142.cpp.i
 
-.PHONY : demo140.i
+.PHONY : demo142.i
 
 # target to preprocess a source file
-demo140.cpp.i:
-	$(MAKE) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/demo140.cpp.i
-.PHONY : demo140.cpp.i
+demo142.cpp.i:
+	$(MAKE) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/demo142.cpp.i
+.PHONY : demo142.cpp.i
 
-demo140.s: demo140.cpp.s
+demo142.s: demo142.cpp.s
 
-.PHONY : demo140.s
+.PHONY : demo142.s
 
 # target to generate assembly for a file
-demo140.cpp.s:
-	$(MAKE) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/demo140.cpp.s
-.PHONY : demo140.cpp.s
+demo142.cpp.s:
+	$(MAKE) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/demo142.cpp.s
+.PHONY : demo142.cpp.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... rebuild_cache
 	@echo ... test
 	@echo ... edit_cache
-	@echo ... demo140.obj
-	@echo ... demo140.i
-	@echo ... demo140.s
+	@echo ... demo142.obj
+	@echo ... demo142.i
+	@echo ... demo142.s
 .PHONY : help
 
 

@@ -6,7 +6,7 @@
 #include <fstream>
 
 using namespace std;
-
+//以文本方式读写文件
 int main()
 {
     int x,sum=0;

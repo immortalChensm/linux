@@ -6,9 +6,15 @@
 
 #IncludeRegexTransform: 
 
-E:/c/linux/test/demo142.cpp
+E:/c/linux/test/find.cpp
 iostream
 -
-fstream
+algorithm
+-
+vector
+-
+string
+-
+string.h
 -
 

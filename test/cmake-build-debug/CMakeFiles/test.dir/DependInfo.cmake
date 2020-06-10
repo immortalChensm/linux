@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "E:/c/linux/test/queueLink.cpp" "E:/c/linux/test/cmake-build-debug/CMakeFiles/test.dir/queueLink.cpp.obj"
+  "E:/c/linux/test/demo140.cpp" "E:/c/linux/test/cmake-build-debug/CMakeFiles/test.dir/demo140.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

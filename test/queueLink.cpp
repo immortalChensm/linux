@@ -62,5 +62,7 @@ int main()
     rear = deQueue(top,rear);
     rear = deQueue(top,rear);
     rear = deQueue(top,rear);
+
+    printf("%d\n",(int)(~5));
     return 0;
 }

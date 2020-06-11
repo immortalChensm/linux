@@ -6,15 +6,11 @@
 
 #IncludeRegexTransform: 
 
-E:/c/linux/test/find.cpp
+E:/c/linux/test/tree1.cpp
 iostream
 -
-algorithm
--
-vector
+string.h
 -
 string
--
-string.h
 -
 

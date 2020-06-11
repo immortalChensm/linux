@@ -82,7 +82,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="E:/c/linux/test/find.cpp">
+		<Unit filename="E:/c/linux/test/tree1.cpp">
 			<Option target="test"/>
 		</Unit>
 		<Unit filename="E:/c/linux/test/CMakeLists.txt">

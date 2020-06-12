@@ -6,11 +6,13 @@
 
 #IncludeRegexTransform: 
 
-E:/c/linux/test/tree1.cpp
+E:/c/linux/test/tree2.cpp
 iostream
+-
+string
 -
 string.h
 -
-string
+stdio.h
 -
 

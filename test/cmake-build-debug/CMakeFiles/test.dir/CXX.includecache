@@ -6,13 +6,9 @@
 
 #IncludeRegexTransform: 
 
-E:/c/linux/test/tree2.cpp
-iostream
--
-string
--
-string.h
--
+E:/c/linux/test/tree3.cpp
 stdio.h
+-
+stdlib.h
 -
 

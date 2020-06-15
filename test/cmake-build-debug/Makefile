@@ -122,32 +122,32 @@ test/fast:
 	$(MAKE) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/build
 .PHONY : test/fast
 
-tree3.obj: tree3.cpp.obj
+tree4.obj: tree4.cpp.obj
 
-.PHONY : tree3.obj
+.PHONY : tree4.obj
 
 # target to build an object file
-tree3.cpp.obj:
-	$(MAKE) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/tree3.cpp.obj
-.PHONY : tree3.cpp.obj
+tree4.cpp.obj:
+	$(MAKE) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/tree4.cpp.obj
+.PHONY : tree4.cpp.obj
 
-tree3.i: tree3.cpp.i
+tree4.i: tree4.cpp.i
 
-.PHONY : tree3.i
+.PHONY : tree4.i
 
 # target to preprocess a source file
-tree3.cpp.i:
-	$(MAKE) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/tree3.cpp.i
-.PHONY : tree3.cpp.i
+tree4.cpp.i:
+	$(MAKE) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/tree4.cpp.i
+.PHONY : tree4.cpp.i
 
-tree3.s: tree3.cpp.s
+tree4.s: tree4.cpp.s
 
-.PHONY : tree3.s
+.PHONY : tree4.s
 
 # target to generate assembly for a file
-tree3.cpp.s:
-	$(MAKE) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/tree3.cpp.s
-.PHONY : tree3.cpp.s
+tree4.cpp.s:
+	$(MAKE) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/tree4.cpp.s
+.PHONY : tree4.cpp.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... rebuild_cache
 	@echo ... test
 	@echo ... edit_cache
-	@echo ... tree3.obj
-	@echo ... tree3.i
-	@echo ... tree3.s
+	@echo ... tree4.obj
+	@echo ... tree4.i
+	@echo ... tree4.s
 .PHONY : help
 
 

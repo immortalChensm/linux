@@ -6,9 +6,19 @@
 
 #IncludeRegexTransform: 
 
-E:/c/linux/test/tree4.cpp
-stdio.h
--
+E:/c/linux/test/a.c
 stdlib.h
 -
+stdio.h
+-
+test.h
+E:/c/linux/test/test.h
+
+E:/c/linux/test/b.c
+test.h
+E:/c/linux/test/test.h
+stdio.h
+-
+
+E:/c/linux/test/test.h
 

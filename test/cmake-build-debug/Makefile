@@ -122,32 +122,32 @@ test/fast:
 	$(MAKE) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/build
 .PHONY : test/fast
 
-tree4.obj: tree4.cpp.obj
+halfSearch.obj: halfSearch.cpp.obj
 
-.PHONY : tree4.obj
+.PHONY : halfSearch.obj
 
 # target to build an object file
-tree4.cpp.obj:
-	$(MAKE) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/tree4.cpp.obj
-.PHONY : tree4.cpp.obj
+halfSearch.cpp.obj:
+	$(MAKE) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/halfSearch.cpp.obj
+.PHONY : halfSearch.cpp.obj
 
-tree4.i: tree4.cpp.i
+halfSearch.i: halfSearch.cpp.i
 
-.PHONY : tree4.i
+.PHONY : halfSearch.i
 
 # target to preprocess a source file
-tree4.cpp.i:
-	$(MAKE) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/tree4.cpp.i
-.PHONY : tree4.cpp.i
+halfSearch.cpp.i:
+	$(MAKE) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/halfSearch.cpp.i
+.PHONY : halfSearch.cpp.i
 
-tree4.s: tree4.cpp.s
+halfSearch.s: halfSearch.cpp.s
 
-.PHONY : tree4.s
+.PHONY : halfSearch.s
 
 # target to generate assembly for a file
-tree4.cpp.s:
-	$(MAKE) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/tree4.cpp.s
-.PHONY : tree4.cpp.s
+halfSearch.cpp.s:
+	$(MAKE) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/halfSearch.cpp.s
+.PHONY : halfSearch.cpp.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... rebuild_cache
 	@echo ... test
 	@echo ... edit_cache
-	@echo ... tree4.obj
-	@echo ... tree4.i
-	@echo ... tree4.s
+	@echo ... halfSearch.obj
+	@echo ... halfSearch.i
+	@echo ... halfSearch.s
 .PHONY : help
 
 

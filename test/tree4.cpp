@@ -105,24 +105,33 @@ void displayTree(CTree tree)
         }
     }
 }
+
+struct a{
+    int age;
+    char data[1024];
+};
 int main()
 {
-    CTree tree;
+//    CTree tree;
+//
+//    for (int i = 0; i <MAX_SIZE ; ++i) {
+//
+//        tree.nodes[i].firstChild = NULL;
+//    }
+//
+//    tree = initTree(tree);
+//    tree.r = 0;
+//
+//    printf("show node\n");
+//
+//    displayTree(tree);
+//
+//    printf("find kids:");
+//    findKids(tree,'A');
 
-    for (int i = 0; i <MAX_SIZE ; ++i) {
 
-        tree.nodes[i].firstChild = NULL;
-    }
-
-    tree = initTree(tree);
-    tree.r = 0;
-
-    printf("show node\n");
-
-    displayTree(tree);
-
-    printf("find kids:");
-    findKids(tree,'A');
+    struct a demo;
+    printf("%d,%d\n",sizeof(struct a),sizeof(demo));
 
     return 0;
 }

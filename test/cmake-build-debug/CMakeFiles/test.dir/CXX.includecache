@@ -6,9 +6,13 @@
 
 #IncludeRegexTransform: 
 
-E:/c/linux/test/halfSearch.cpp
-stdio.h
+E:/c/linux/test/template.cpp
+iostream
 -
-stdlib.h
+string.h
+-
+vector
+-
+map
 -
 

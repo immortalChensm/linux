@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/test.dir/halfSearch.cpp.obj"
+  "CMakeFiles/test.dir/template.cpp.obj"
   "test.pdb"
   "test.exe"
   "test.exe.manifest"

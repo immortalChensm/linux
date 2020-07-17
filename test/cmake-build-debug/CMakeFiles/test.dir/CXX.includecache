@@ -6,13 +6,17 @@
 
 #IncludeRegexTransform: 
 
-E:/c/linux/test/template.cpp
+E:/c/linux/test/thread8.cpp
 iostream
 -
 string.h
 -
-vector
+thread
 -
-map
+future
+-
+mutex
+-
+list
 -
 

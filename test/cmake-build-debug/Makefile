@@ -122,32 +122,32 @@ test/fast:
 	$(MAKE) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/build
 .PHONY : test/fast
 
-template.obj: template.cpp.obj
+thread8.obj: thread8.cpp.obj
 
-.PHONY : template.obj
+.PHONY : thread8.obj
 
 # target to build an object file
-template.cpp.obj:
-	$(MAKE) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/template.cpp.obj
-.PHONY : template.cpp.obj
+thread8.cpp.obj:
+	$(MAKE) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/thread8.cpp.obj
+.PHONY : thread8.cpp.obj
 
-template.i: template.cpp.i
+thread8.i: thread8.cpp.i
 
-.PHONY : template.i
+.PHONY : thread8.i
 
 # target to preprocess a source file
-template.cpp.i:
-	$(MAKE) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/template.cpp.i
-.PHONY : template.cpp.i
+thread8.cpp.i:
+	$(MAKE) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/thread8.cpp.i
+.PHONY : thread8.cpp.i
 
-template.s: template.cpp.s
+thread8.s: thread8.cpp.s
 
-.PHONY : template.s
+.PHONY : thread8.s
 
 # target to generate assembly for a file
-template.cpp.s:
-	$(MAKE) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/template.cpp.s
-.PHONY : template.cpp.s
+thread8.cpp.s:
+	$(MAKE) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/thread8.cpp.s
+.PHONY : thread8.cpp.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... rebuild_cache
 	@echo ... test
 	@echo ... edit_cache
-	@echo ... template.obj
-	@echo ... template.i
-	@echo ... template.s
+	@echo ... thread8.obj
+	@echo ... thread8.i
+	@echo ... thread8.s
 .PHONY : help
 
 

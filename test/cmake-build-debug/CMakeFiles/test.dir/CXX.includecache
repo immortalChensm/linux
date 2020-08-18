@@ -6,17 +6,9 @@
 
 #IncludeRegexTransform: 
 
-E:/c/linux/test/thread8.cpp
+E:/c/linux/test/class1.cpp
 iostream
 -
-string.h
--
-thread
--
-future
--
-mutex
--
-list
+string
 -
 

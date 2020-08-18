@@ -71,14 +71,15 @@ int main()
 
     //cout<<"over"<<endl;
 
-    vector<std::shared_ptr<A>> data;
-    data.push_back(make_shared<A>(1));
-    data.push_back(make_shared<A>(2));
-    data.push_back(make_shared<A>(3));
-    data.push_back(make_shared<A>(4));
-    data.push_back(make_shared<A>(5));
+    //vector<std::shared_ptr<A>> data;
+    vector<A> data;
+    data.push_back(A(1));
+    data.push_back(A(2));
+    data.push_back(A(3));
+    data.push_back(A(4));
+    data.push_back(A(5));
 
-    data.erase(data.begin());
+    //data.erase(data.begin());
     data.clear();
     while (1){
 

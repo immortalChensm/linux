@@ -150,7 +150,7 @@ CMAKE_OBJCOPY:FILEPATH=C:/TDM-GCC-64/bin/objcopy.exe
 CMAKE_OBJDUMP:FILEPATH=C:/TDM-GCC-64/bin/objdump.exe
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=swoole_test
+CMAKE_PROJECT_NAME:STATIC=thread10
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=C:/TDM-GCC-64/bin/ranlib.exe
@@ -237,6 +237,12 @@ swoole_test_BINARY_DIR:STATIC=E:/c/linux/test/cmake-build-debug
 
 //Value Computed by CMake
 swoole_test_SOURCE_DIR:STATIC=E:/c/linux/test
+
+//Value Computed by CMake
+thread10_BINARY_DIR:STATIC=E:/c/linux/test/cmake-build-debug
+
+//Value Computed by CMake
+thread10_SOURCE_DIR:STATIC=E:/c/linux/test
 
 
 ########################

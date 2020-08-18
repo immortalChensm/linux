@@ -2,7 +2,7 @@
 <CodeBlocks_project_file>
 	<FileVersion major="1" minor="6"/>
 	<Project>
-		<Option title="swoole_test"/>
+		<Option title="thread10"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
 		<Option virtualFolders="CMake Files\;"/>
@@ -82,7 +82,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="E:/c/linux/test/thread10.cpp">
+		<Unit filename="E:/c/linux/test/class1.cpp">
 			<Option target="test"/>
 		</Unit>
 		<Unit filename="E:/c/linux/test/CMakeLists.txt">

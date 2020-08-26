@@ -82,7 +82,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="E:/c/linux/test/class1.cpp">
+		<Unit filename="E:/c/linux/test/async.cpp">
 			<Option target="test"/>
 		</Unit>
 		<Unit filename="E:/c/linux/test/CMakeLists.txt">

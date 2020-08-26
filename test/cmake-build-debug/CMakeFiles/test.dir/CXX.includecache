@@ -6,9 +6,19 @@
 
 #IncludeRegexTransform: 
 
-E:/c/linux/test/class1.cpp
+E:/c/linux/test/async.cpp
 iostream
 -
-string
+future
+-
+functional
+-
+thread
+-
+atomic
+-
+time.h
+-
+windows.h
 -
 

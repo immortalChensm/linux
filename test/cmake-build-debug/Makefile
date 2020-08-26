@@ -122,32 +122,32 @@ test/fast:
 	$(MAKE) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/build
 .PHONY : test/fast
 
-class1.obj: class1.cpp.obj
+async.obj: async.cpp.obj
 
-.PHONY : class1.obj
+.PHONY : async.obj
 
 # target to build an object file
-class1.cpp.obj:
-	$(MAKE) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/class1.cpp.obj
-.PHONY : class1.cpp.obj
+async.cpp.obj:
+	$(MAKE) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/async.cpp.obj
+.PHONY : async.cpp.obj
 
-class1.i: class1.cpp.i
+async.i: async.cpp.i
 
-.PHONY : class1.i
+.PHONY : async.i
 
 # target to preprocess a source file
-class1.cpp.i:
-	$(MAKE) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/class1.cpp.i
-.PHONY : class1.cpp.i
+async.cpp.i:
+	$(MAKE) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/async.cpp.i
+.PHONY : async.cpp.i
 
-class1.s: class1.cpp.s
+async.s: async.cpp.s
 
-.PHONY : class1.s
+.PHONY : async.s
 
 # target to generate assembly for a file
-class1.cpp.s:
-	$(MAKE) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/class1.cpp.s
-.PHONY : class1.cpp.s
+async.cpp.s:
+	$(MAKE) -f CMakeFiles\test.dir\build.make CMakeFiles/test.dir/async.cpp.s
+.PHONY : async.cpp.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... rebuild_cache
 	@echo ... test
 	@echo ... edit_cache
-	@echo ... class1.obj
-	@echo ... class1.i
-	@echo ... class1.s
+	@echo ... async.obj
+	@echo ... async.i
+	@echo ... async.s
 .PHONY : help
 
 

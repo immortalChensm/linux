@@ -35,6 +35,6 @@ int main(int argc,char *argv[])
 	}else{
 		printf("file can not be run!\n");
 	}
-
+temp = access(argv[1],1);
 	return 0;
 }
